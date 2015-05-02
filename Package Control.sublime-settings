@@ -1,0 +1,20 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Default File Type",
+		"DuplicateSelections",
+		"GitGutter",
+		"JavaScriptNext - ES6 Syntax",
+		"JSX",
+		"Package Control",
+		"SideBarEnhancements",
+		"sublime-github",
+		"Theme - El Capitan",
+		"Tomorrow Color Schemes",
+		"Unicode Character Highlighter"
+	]
+}
