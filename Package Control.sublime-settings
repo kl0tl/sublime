@@ -18,6 +18,9 @@
 		"Package Control",
 		"SideBarEnhancements",
 		"sublime-github",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jsxhint",
 		"Theme - El Capitan",
 		"Tomorrow Color Schemes",
 		"Unicode Character Highlighter"

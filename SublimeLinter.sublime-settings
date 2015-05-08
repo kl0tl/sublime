@@ -1,0 +1,15 @@
+{
+    "user": {
+        "linters": {
+            "jsxhint": {
+                "@disable": false,
+                "args": [
+                    "--config",
+                    "/Users/kl0tl/Library/Application Support/Sublime Text 3/Packages/User/.jshintrc"
+                ],
+                "excludes": []
+            }
+        },
+        "mark_style": "squiggly underline"
+    }
+}
