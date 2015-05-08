@@ -22,7 +22,12 @@
 		"SublimeLinter",
 		"SublimeLinter-csslint",
 		"SublimeLinter-jsxhint",
+		"SublimeSocket",
 		"Theme - El Capitan",
 		"Unicode Character Highlighter"
+	],
+	"repositories":
+	[
+		"https://github.com/sassembla/SublimeSocket"
 	]
 }
