@@ -1,6 +1,17 @@
 {
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "/",
+			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+		}
+	],
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
 	"ignored_packages":
