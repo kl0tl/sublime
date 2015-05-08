@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"Babel",
 		"BracketHighlighter",
 		"Default File Type",
