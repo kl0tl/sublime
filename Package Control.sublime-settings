@@ -4,13 +4,12 @@
 	],
 	"installed_packages":
 	[
+		"Babel",
 		"BracketHighlighter",
 		"Default File Type",
 		"Color Highlighter",
 		"DuplicateSelections",
 		"GitGutter",
-		"JavaScriptNext - ES6 Syntax",
-		"JSX",
 		"Package Control",
 		"SideBarEnhancements",
 		"sublime-github",
