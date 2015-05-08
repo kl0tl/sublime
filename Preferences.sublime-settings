@@ -17,6 +17,7 @@
 	"ignored_packages":
 	[
 		"Vintage",
+		"Markdown",
 		"JavaScript"
 	],
 	"rulers":
