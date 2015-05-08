@@ -5,7 +5,8 @@
 	"font_face": "Source Code Pro",
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"JavaScript"
 	],
 	"rulers":
 	[
