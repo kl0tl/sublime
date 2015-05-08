@@ -1,6 +1,5 @@
 {
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"auto_complete_triggers":
 	[
 		{
@@ -12,9 +11,11 @@
 			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
 		}
 	],
+	"color_scheme": "Packages/User/SublimeLinter/base16-tomorrow.dark (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
 	"font_size": 14,
+	"highlight_unicode_color_name": "invalid.illegal",
 	"ignored_packages":
 	[
 		"Vintage",
