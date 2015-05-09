@@ -1,3 +1,4 @@
 [
-    { "keys": ["super+alt+c"], "command": "copy_path" }
+    { "keys": ["super+alt+c"], "command": "copy_path" },
+    { "keys": ["super+alt+n"], "command": "advanced_new_file_new" }
 ]
