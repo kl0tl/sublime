@@ -23,6 +23,7 @@
 		"Markdown",
 		"JavaScript"
 	],
+	"origami_auto_close_empty_panes": true,
 	"rulers":
 	[
 		80
