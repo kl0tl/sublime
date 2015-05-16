@@ -1,5 +1,6 @@
 {
 	"afn_deleting_slash": true,
+	"afn_insert_dimensions": false,
 	"afn_use_keybinding": true,
 	"afn_valid_scopes":
 	[
