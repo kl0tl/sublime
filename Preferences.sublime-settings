@@ -1,5 +1,10 @@
 {
 	"afn_use_keybinding": true,
+	"afn_valid_scopes":
+	[
+		"source",
+		"text"
+	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
