@@ -2,7 +2,17 @@
   { "keys": ["super+alt+c"], "command": "copy_path" },
   { "keys": ["super+shift+w"], "command": "close_all" },
   { "keys": ["super+alt+n"], "command": "advanced_new_file_new" },
-  { "keys": ["ctrl+alt+space"], "command": "afn_show_filenames" },
+
+  {
+    "keys": ["ctrl+alt+space"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        { "command": "hide_auto_complete", "context": "window" },
+        { "command": "afn_show_filenames", "delay": 1, "context": "window" }
+      ]
+    }
+  },
 
   {
     "keys": ["super+k", "super+i"],
