@@ -11,6 +11,7 @@
 			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
 		}
 	],
+	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
 	"color_scheme": "Packages/User/SublimeLinter/base16-tomorrow.dark (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
