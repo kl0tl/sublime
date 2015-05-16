@@ -15,6 +15,12 @@
   },
 
   {
+    "keys": ["ctrl+ù"],
+    "command": "show_panel",
+    "args": { "panel": "console", "toggle": true }
+  },
+
+  {
     "keys": ["super+k", "super+i"],
     "command": "toggle_color_scheme",
     "args": {
