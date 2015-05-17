@@ -26,10 +26,11 @@
 		"SublimeSocket",
 		"Theme - El Capitan",
 		"Unicode Character Highlighter",
-		"Unity3D Reference Search"
+		"Unity3DReference"
 	],
 	"repositories":
 	[
-		"https://github.com/sassembla/SublimeSocket"
+		"https://github.com/sassembla/SublimeSocket",
+		"https://github.com/Kl0tl/Unity3DReference"
 	]
 }
