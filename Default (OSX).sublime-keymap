@@ -38,6 +38,31 @@
     }
   },
 
+  {
+    "keys": ["super+k", "super+b"],
+    "command": "dired",
+    "args": {
+      "immediate": true,
+      "other_group": "left",
+      "project": true,
+      "single_pane": true
+    }
+  },
+
+  {
+    "keys": ["super+alt+k", "super+alt+b"],
+    "command": "toggle_side_bar"
+  },
+
+  {
+    "keys": ["super+k", "super+z"],
+    "command": "zoom_pane",
+    "args": { "fraction": 0.25 },
+    "context": [
+      {  "key": "selector", "operand": "text.dired" }
+    ]
+  },
+
   { "keys": ["super+k", "super+w", "super+,"], "command": "destroy_pane", "args": { "direction": "self" } },
   { "keys": ["super+k", "super+w", "super+up"], "command": "destroy_pane", "args": { "direction": "up" } },
   { "keys": ["super+k", "super+w", "super+right"], "command": "destroy_pane", "args": { "direction": "right" } },
