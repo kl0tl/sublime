@@ -7,6 +7,21 @@
   { "keys": ["ctrl+alt+shift+m"], "command": "move_to_quotes", "args": { "expand": true } },
 
   {
+    "keys": ["alt+left"],
+    "command": "transpose_selection",
+    "context": [
+      { "key": "selection_empty", "operand": false }
+    ]
+  },
+  {
+    "keys": ["alt+right"],
+    "command": "transpose_selection",
+    "context": [
+      { "key": "selection_empty", "operand": false }
+    ]
+  },
+
+  {
     "keys": ["tab"],
     "command": "move",
     "args": { "by": "subword_ends", "forward": true },
