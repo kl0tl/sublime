@@ -29,7 +29,6 @@
 	],
 	"repositories":
 	[
-		"https://github.com/sassembla/SublimeSocket",
 		"https://github.com/Kl0tl/Unity3DReference"
 	]
 }
