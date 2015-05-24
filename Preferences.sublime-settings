@@ -23,6 +23,10 @@
 		"Markdown",
 		"JavaScript"
 	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
 	"open_files_in_new_window": false,
 	"origami_auto_close_empty_panes": true,
 	"rulers":
