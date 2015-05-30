@@ -163,6 +163,11 @@
   },
 
   {
+    "keys": ["super+k", "super+m"],
+    "command": "toggle_minimap"
+  },
+
+  {
     "keys": ["super+k", "super+b"],
     "command": "dired",
     "args": {
