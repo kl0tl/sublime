@@ -31,7 +31,9 @@
 	"origami_auto_close_empty_panes": true,
 	"rulers":
 	[
-		80
+		70,
+		80,
+		120
 	],
 	"shift_tab_unindent": true,
 	"show_encoding": true,
