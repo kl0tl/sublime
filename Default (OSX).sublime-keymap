@@ -13,6 +13,97 @@
   { "keys": ["ctrl+alt+shift+m"], "command": "move_to_quotes", "args": { "expand": true } },
 
   {
+    "keys": ["&"],
+    "command": "insert",
+    "args": { "characters": "1" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+  {
+    "keys": ["é"],
+    "command": "insert",
+    "args": { "characters": "2" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+  {
+    "keys": ["\""],
+    "command": "insert",
+    "args": { "characters": "3" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+  {
+    "keys": ["'"],
+    "command": "insert",
+    "args": { "characters": "4" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+  {
+    "keys": ["("],
+    "command": "insert",
+    "args": { "characters": "5" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+  {
+    "keys": ["§"],
+    "command": "insert",
+    "args": { "characters": "6" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+  {
+    "keys": ["è"],
+    "command": "insert",
+    "args": { "characters": "7" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+  {
+    "keys": ["!"],
+    "command": "insert",
+    "args": { "characters": "8" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+  {
+    "keys": ["ç"],
+    "command": "insert",
+    "args": { "characters": "9" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+  {
+    "keys": ["à"],
+    "command": "insert",
+    "args": { "characters": "0" },
+    "context": [
+      { "key": "overlay_visible" },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^:" }
+    ]
+  },
+
+  {
     "keys": ["alt+left"],
     "command": "transpose_selection",
     "context": [
