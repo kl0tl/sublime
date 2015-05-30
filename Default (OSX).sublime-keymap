@@ -186,6 +186,14 @@
   },
 
   {
+    "keys": ["escape"],
+    "command": "close",
+    "context": [
+      { "key": "selector", "operand": "text.dired" }
+    ]
+  },
+
+  {
     "keys": ["super+k", "super+z"],
     "command": "zoom_pane",
     "args": { "fraction": 0.25 },
