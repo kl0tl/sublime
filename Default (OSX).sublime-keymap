@@ -1,4 +1,8 @@
 [
+  { "keys": ["super+;"], "command": "open_file", "args": { "file": "${packages}/User/Default (OSX).sublime-keymap" } },
+  { "keys": ["super+shift+,"], "command": "open_file", "args": { "file": "${packages}/Default/Preferences.sublime-settings" } },
+  { "keys": ["super+shift+;"], "command": "open_file", "args": { "file": "${packages}/Default/Default (OSX).sublime-keymap" } },
+
   { "keys": ["super+alt+c"], "command": "copy_path" },
   { "keys": ["super+alt+w"], "command": "close_all" },
 
