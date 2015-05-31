@@ -3,6 +3,9 @@
   { "keys": ["super+shift+,"], "command": "open_file", "args": { "file": "${packages}/Default/Preferences.sublime-settings" } },
   { "keys": ["super+shift+;"], "command": "open_file", "args": { "file": "${packages}/Default/Default (OSX).sublime-keymap" } },
 
+  { "keys": ["super+:"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["super+/"], "command": "toggle_comment", "args": { "block": true } },
+
   { "keys": ["super+v"], "command": "paste_and_indent" },
   { "keys": ["super+shift+v"], "command": "paste" },
 
