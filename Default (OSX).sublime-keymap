@@ -187,10 +187,34 @@
 
   {
     "keys": ["super+k", "super+i"],
-    "command": "toggle_color_scheme",
+    "command": "toggle_color_schemes",
     "args": {
-      "light": "Packages/User/SublimeLinter/base16-solarized.light (SL).tmTheme",
-      "dark": "Packages/User/SublimeLinter/base16-tomorrow.dark (SL).tmTheme"
+      "color_schemes": [
+        {
+          "settings": "Preferences.sublime-settings",
+          "light": "Packages/User/SublimeLinter/base16-solarized.light (SL).tmTheme",
+          "dark": "Packages/User/SublimeLinter/base16-tomorrow.dark (SL).tmTheme",
+          "scopes": ["sources"]
+        },
+        {
+          "settings": "Find Results.sublime-settings",
+          "light": "Packages/User/Find Results.light.hidden-tmTheme",
+          "dark": "Packages/User/Find Results.dark.hidden-tmTheme",
+          "scopes": ["text.find-in-files"]
+        },
+        {
+          "settings": "dired.sublime-settings",
+          "light": "Packages/User/dired.light.hidden-tmTheme",
+          "dark": "Packages/User/dired.dark.hidden-tmTheme",
+          "scopes": ["text.dired", "text.dired_help", "text.dired_jump_list"]
+        },
+        {
+          "settings": "dired-rename-mode.sublime-settings",
+          "light": "Packages/User/dired-rename-mode.light.hidden-tmTheme",
+          "dark": "Packages/User/dired-rename-mode.dark.hidden-tmTheme",
+          "scopes": ["text.dired"]
+        }
+      ]
     }
   },
 
