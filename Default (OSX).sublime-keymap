@@ -9,6 +9,36 @@
   { "keys": ["super+alt+c"], "command": "copy_path" },
   { "keys": ["super+alt+w"], "command": "close_all" },
 
+  {
+    "keys": ["alt+right"],
+    "command": "find_in_files_jump_file",
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files" }
+    ]
+  },
+  {
+    "keys": ["alt+left"],
+    "command": "find_in_files_jump_file",
+    "args": { "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files" }
+    ]
+  },
+  {
+    "keys": ["alt+down"],
+    "command": "find_next",
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files" }
+    ]
+  },
+  {
+    "keys": ["alt+up"],
+    "command": "find_prev",
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files" }
+    ]
+  },
+
   { "keys": ["ctrl+alt+m"], "command": "move_to_quotes" },
   { "keys": ["ctrl+alt+shift+m"], "command": "move_to_quotes", "args": { "expand": true } },
 
@@ -107,14 +137,16 @@
     "keys": ["alt+left"],
     "command": "transpose_selection",
     "context": [
-      { "key": "selection_empty", "operand": false }
+      { "key": "selection_empty", "operand": false },
+      { "key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
     ]
   },
   {
     "keys": ["alt+right"],
     "command": "transpose_selection",
     "context": [
-      { "key": "selection_empty", "operand": false }
+      { "key": "selection_empty", "operand": false },
+      { "key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
     ]
   },
 
