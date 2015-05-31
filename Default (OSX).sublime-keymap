@@ -221,7 +221,8 @@
     "keys": ["escape"],
     "command": "close",
     "context": [
-      { "key": "selector", "operand": "text.dired" }
+      { "key": "selector", "operand": "text.dired" },
+      { "key": "setting.dired_rename_mode", "operand": false }
     ]
   },
 
