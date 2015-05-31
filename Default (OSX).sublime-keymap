@@ -262,6 +262,9 @@
     ]
   },
 
+  { "keys": ["super+ctrl+right"], "command": "cycle_group" },
+  { "keys": ["super+ctrl+left"], "command": "cycle_group", "args": { "forward": false } },
+
   { "keys": ["super+k", "super+w", "super+,"], "command": "destroy_pane", "args": { "direction": "self" } },
   { "keys": ["super+k", "super+w", "super+up"], "command": "destroy_pane", "args": { "direction": "up" } },
   { "keys": ["super+k", "super+w", "super+right"], "command": "destroy_pane", "args": { "direction": "right" } },
