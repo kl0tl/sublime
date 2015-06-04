@@ -38,30 +38,39 @@ class Parser:
   def __init__(self, view, pos = 0):
     self.view = view
     self.pos = pos
-    self.begin_quote_scope = 'punctuation.definition.string.begin'
-    self.end_quote_scope = 'punctuation.definition.string.end'
-    self.quoted_scope = 'string.quoted'
+    self.begin_quote_scopes = [
+      'punctuation.definition.string.begin',
+      'punctuation.definition.quasi.begin'
+    ]
+    self.end_quote_scopes = [
+      'punctuation.definition.string.end',
+      'punctuation.definition.quasi.end'
+    ]
+    self.quoted_scopes = [
+      'string.quoted',
+      'string.quasi'
+    ]
 
   def is_before_begin_quote(self):
-    return self.matches_scope(self.begin_quote_scope)
+    return self.matches(self.begin_quote_scopes)
 
   def is_after_begin_quote(self):
-    return self.matches_scope_at(self.pos - 1, self.begin_quote_scope)
+    return self.matches_at(self.pos - 1, self.begin_quote_scopes)
 
   def is_before_end_quote(self):
-    return self.matches_scope(self.end_quote_scope)
+    return self.matches(self.end_quote_scopes)
 
   def is_after_end_quote(self):
-    return self.matches_scope_at(self.pos - 1, self.end_quote_scope)
+    return self.matches_at(self.pos - 1, self.end_quote_scopes)
 
   def is_quoted(self):
-    return self.matches_scope(self.quoted_scope)
+    return self.matches(self.quoted_scopes)
 
-  def matches_scope(self, scope):
-    return self.matches_scope_at(self.pos, scope)
+  def matches(self, scopes):
+    return self.matches_at(self.pos, scopes)
 
-  def matches_scope_at(self, pos, scope):
-    return self.view.score_selector(pos, scope) > 0
+  def matches_at(self, pos, scopes):
+    return any(map(lambda scope: self.view.score_selector(pos, scope) > 0, scopes))
 
   def move_before_end_quote(self):
     return self.move(self.next, self.is_before_end_quote)
