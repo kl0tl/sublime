@@ -12,14 +12,14 @@
   { "keys": ["super+alt+w"], "command": "close_all" },
 
   {
-    "keys": ["alt+right"],
+    "keys": ["shift+alt+down"],
     "command": "find_in_files_jump_file",
     "context": [
         {"key": "selector", "operand": "text.find-in-files" }
     ]
   },
   {
-    "keys": ["alt+left"],
+    "keys": ["shift+alt+up"],
     "command": "find_in_files_jump_file",
     "args": { "forward": false },
     "context": [
@@ -140,7 +140,6 @@
     "command": "transpose_selection",
     "context": [
       { "key": "selection_empty", "operand": false },
-      { "key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
     ]
   },
   {
@@ -148,7 +147,6 @@
     "command": "transpose_selection",
     "context": [
       { "key": "selection_empty", "operand": false },
-      { "key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
     ]
   },
 
