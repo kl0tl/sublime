@@ -240,6 +240,10 @@
     "keys": ["super+k", "super+i"],
     "command": "toggle_color_schemes",
     "args": {
+      "themes": {
+        "light": "El Capitan.sublime-theme",
+        "dark": "El Capitan Dark.sublime-theme"
+      },
       "color_schemes": [
         {
           "settings": "Preferences.sublime-settings",
