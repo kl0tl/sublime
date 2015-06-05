@@ -248,6 +248,12 @@
           "scopes": ["source"]
         },
         {
+          "settings": "Markdown.sublime-settings",
+          "light": "Packages/User/SublimeLinter/base16-solarized.light (SL).tmTheme",
+          "dark": "Packages/User/SublimeLinter/base16-tomorrow.dark (SL).tmTheme",
+          "scopes": ["text.html.markdown"]
+        },
+        {
           "settings": "Find Results.sublime-settings",
           "light": "Packages/User/Find Results.light.hidden-tmTheme",
           "dark": "Packages/User/Find Results.dark.hidden-tmTheme",
