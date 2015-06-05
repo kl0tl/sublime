@@ -23,13 +23,6 @@
         <string>#969896</string>
         <key>selection</key>
         <string>#373b41</string>
-        <key>inactiveSelection</key>
-        <string>#373b4199</string>
-        <key>shadow</key>
-        <string>#1d1f21</string>
-        <key>shadowWidth</key>
-        <string>16</string>
-
       </dict>
     </dict>
 
