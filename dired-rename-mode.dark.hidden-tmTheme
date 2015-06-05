@@ -47,7 +47,7 @@
 
     <dict>
       <key>name</key>
-      <string>Dir Slash</string>
+      <string>Parent Dir Symbol</string>
       <key>scope</key>
       <string>dired.item.parent_dir</string>
       <key>settings</key>
