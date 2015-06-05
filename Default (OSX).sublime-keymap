@@ -242,7 +242,7 @@
     "args": {
       "themes": {
         "light": "El Capitan.sublime-theme",
-        "dark": "El Capitan Dark.sublime-theme"
+        "dark": "El Capitan.dark.sublime-theme"
       },
       "color_schemes": [
         {
