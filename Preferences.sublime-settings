@@ -43,7 +43,7 @@
 	"show_full_path": true,
 	"show_line_endings": true,
 	"tab_size": 2,
-	"theme": "El Capitan.sublime-theme",
+	"theme": "El Capitan Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true
