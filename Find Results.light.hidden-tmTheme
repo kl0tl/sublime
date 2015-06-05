@@ -10,38 +10,15 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff</string>
+				<string>#fdf6e3</string>
 				<key>foreground</key>
-				<string>#444444</string>
+				<string>#586e75</string>
 
 				<key>caret</key>
-				<string>#FF55FF</string>
-				<key>invisibles</key>
-				<string>#44444466</string>
-
-				<key>lineHighlight</key>
-				<string>#00000022</string>
+				<string>#d33682</string>
 
 				<key>selection</key>
-				<string>#ffff00</string>
-				<key>selectionBorder</key>
-				<string>#ffff00</string>
-				<key>selectionForeground</key>
-				<string>#000000</string>
-
-				<key>findHighlightForeground</key>
-				<string>#000000</string>
-
-				<key>bracketsForeground</key>
-				<string>#00000050</string>
-				<key>bracketsOptions</key>
-				<string>underline</string>
-				<key>bracketContentsForeground</key>
-				<string>#00000050</string>
-				<key>bracketContentsOptions</key>
-				<string>underline</string>
-				<key>tagsOptions</key>
-				<string>stippled_underline</string>
+				<string>#eee8d5</string>
 			</dict>
 		</dict>
 
@@ -51,7 +28,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#660099</string>
+				<string>#6c71c4</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
@@ -63,7 +40,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#009121</string>
+				<string>#859900</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
@@ -75,7 +52,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#009121</string>
+				<string>#859900</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
@@ -87,7 +64,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#660099</string>
+				<string>#6c71c4</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
@@ -99,20 +76,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#44444433</string>
+				<string>#657b83</string>
 			</dict>
 		</dict>
-
-		<dict>
-			<key>scope</key>
-			<string>match.find-in-files</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FFD42044</string>
-			</dict>
-		</dict>
-
 
 		<dict>
 			<key>scope</key>
@@ -120,9 +86,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#444444</string>
+				<string>#657b83</string>
 				<key>background</key>
-				<string>#FFD42066</string>
+				<string>#657b8366</string>
 			</dict>
 		</dict>
 
@@ -132,9 +98,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFD42044</string>
+				<string>#657b8366</string>
 				<key>background</key>
-				<string>#FFD42044</string>
+				<string>#657b8366</string>
 			</dict>
 		</dict>
 
@@ -145,9 +111,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffffff</string>
-				<key>background</key>
-				<string>#80a0ff</string>
+				<string>#268bd2</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
@@ -159,7 +123,19 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#33333322</string>
+				<string>#eee8d5</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>invalid.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#dc322f</string>
+				<key>foreground</key>
+				<string>#fdf6e3</string>
 			</dict>
 		</dict>
 
