@@ -10,25 +10,23 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#d9dee5</string>
+        <string>#fdf6e3</string>
         <key>foreground</key>
-        <string>#222222</string>
+        <string>#586e75</string>
         <key>caret</key>
-        <string>#E99023</string>
-        <key>gutter</key>
-        <string>#d9dee5</string>
-        <key>invisibles</key>
-        <string>#88222233</string>
+        <string>#d33682</string>
         <key>lineHighlight</key>
-        <string>#367cc000</string>
+        <string>#83949655</string>
+        <key>gutter</key>
+        <string>#fdf6e3</string>
+        <key>invisibles</key>
+        <string>#eee8d533</string>
         <key>selection</key>
-        <string>#22222233</string>
-        <key>selectionBorder</key>
-        <string>#22222233</string>
+        <string>#eee8d533</string>
         <key>inactiveSelection</key>
-        <string>#22222219</string>
+        <string>#eee8d519</string>
         <key>shadow</key>
-        <string>#d9dee5</string>
+        <string>#fdf6e3</string>
         <key>shadowWidth</key>
         <string>16</string>
 
@@ -39,23 +37,23 @@
       <key>name</key>
       <string>File/Dir Symbols</string>
       <key>scope</key>
-      <string>punctuation.definition.directory.symbol.dired, punctuation.definition.file.symbol.dired, dired.item.parent_dir</string>
+      <string>punctuation.definition.directory.symbol.dired, punctuation.definition.file.symbol.dired</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#7c8692</string>
+        <string>#657b83</string>
       </dict>
     </dict>
 
     <dict>
       <key>name</key>
-      <string>Dir Slash</string>
+      <string>Parent Dir Symbol</string>
       <key>scope</key>
-      <string>punctuation.definition.directory.slash.dired</string>
+      <string>dired.item.parent_dir</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#919aa388</string>
+        <key>fontStyle</key>
+        <string>bold</string>
       </dict>
     </dict>
 
@@ -67,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#919aa3</string>
+        <string>#859900</string>
       </dict>
     </dict>
 
@@ -78,6 +76,8 @@
       <string>string.name.directory.dired, string.name.project.dired</string>
       <key>settings</key>
       <dict>
+        <key>foreground</key>
+        <string>#268bd2</string>
         <key>fontStyle</key>
         <string>bold</string>
       </dict>
@@ -91,7 +91,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#707e8b</string>
+        <string>#6c71c4</string>
       </dict>
     </dict>
 
@@ -103,7 +103,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6f798733</string>
+        <string>#657b83</string>
       </dict>
     </dict>
 
@@ -115,7 +115,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E99023</string>
+        <string>#d33682</string>
       </dict>
     </dict>
 
@@ -127,7 +127,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#aa0000</string>
+        <string>#dc322f</string>
       </dict>
     </dict>
 
@@ -139,9 +139,9 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#d9dee0</string>
+        <string>#fdf6e4</string>
         <key>foreground</key>
-        <string>#F09609</string>
+        <string>#b58900</string>
       </dict>
     </dict>
 
@@ -153,9 +153,9 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#d9dee0</string>
+        <string>#fdf6e4</string>
         <key>foreground</key>
-        <string>#00c406</string>
+        <string>#dc322f</string>
       </dict>
     </dict>
 
