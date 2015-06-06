@@ -303,15 +303,6 @@
   },
 
   {
-    "keys": ["escape"],
-    "command": "close",
-    "context": [
-      { "key": "selector", "operand": "text.dired" },
-      { "key": "setting.dired_rename_mode", "operand": false }
-    ]
-  },
-
-  {
     "keys": ["super+k", "super+z"],
     "command": "zoom_pane",
     "args": { "fraction": 0.25 },
