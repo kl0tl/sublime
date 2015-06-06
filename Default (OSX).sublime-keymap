@@ -242,7 +242,7 @@
     "args": {
       "themes": {
         "light": "El Capitan.sublime-theme",
-        "dark": "El Capitan.dark.sublime-theme"
+        "dark": "El Capitan (dark).sublime-theme"
       },
       "color_schemes": [
         {
@@ -259,20 +259,20 @@
         },
         {
           "settings": "Find Results.sublime-settings",
-          "light": "Packages/User/Find Results.light.hidden-tmTheme",
-          "dark": "Packages/User/Find Results.dark.hidden-tmTheme",
+          "light": "Packages/User/Find Results (light).hidden-tmTheme",
+          "dark": "Packages/User/Find Results (dark).hidden-tmTheme",
           "scopes": ["text.find-in-files"]
         },
         {
           "settings": "dired.sublime-settings",
-          "light": "Packages/User/dired.light.hidden-tmTheme",
-          "dark": "Packages/User/dired.dark.hidden-tmTheme",
+          "light": "Packages/User/File Browser (light).hidden-tmTheme",
+          "dark": "Packages/User/File Browser (dark).hidden-tmTheme",
           "scopes": ["text.dired", "text.dired_help", "text.dired_jump_list"]
         },
         {
           "settings": "dired-rename-mode.sublime-settings",
-          "light": "Packages/User/dired-rename-mode.light.hidden-tmTheme",
-          "dark": "Packages/User/dired-rename-mode.dark.hidden-tmTheme",
+          "light": "Packages/User/File Browser Rename Mode (light).hidden-tmTheme",
+          "dark": "Packages/User/File Browser Rename Mode (dark).hidden-tmTheme",
           "scopes": ["text.dired"]
         }
       ]
