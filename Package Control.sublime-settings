@@ -23,6 +23,7 @@
 		"Origami",
 		"Package Control",
 		"PackageResourceViewer",
+		"sublime-EasyMotion",
 		"sublime-github",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
@@ -32,6 +33,7 @@
 	],
 	"repositories":
 	[
-		"https://github.com/Kl0tl/Unity3DReference"
+		"https://github.com/Kl0tl/Unity3DReference",
+		"https://github.com/tednaleid/sublime-EasyMotion/tree/st3"
 	]
 }
