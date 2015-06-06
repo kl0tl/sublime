@@ -252,6 +252,11 @@
           "scopes": ["source"]
         },
         {
+          "settings": "Widget.sublime-settings",
+          "light": "Packages/User/Theme - El Capitan/Widget - El Capitan (light).stTheme",
+          "dark": "Packages/User/Theme - El Capitan/Widget - El Capitan (dark).stTheme"
+        },
+        {
           "settings": "Markdown.sublime-settings",
           "light": "Packages/User/SublimeLinter/base16-solarized.light (SL).tmTheme",
           "dark": "Packages/User/SublimeLinter/base16-tomorrow.dark (SL).tmTheme",
