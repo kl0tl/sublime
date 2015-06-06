@@ -503,7 +503,7 @@
     {
         "class": "sidebar_container",
         "layer0.texture": "Theme - El Capitan/Assets/sidebar-bg.png",
-        "layer0.tint": [29, 31, 33], // 00
+        "layer0.tint": [40, 42, 46], // 01
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
         "content_margin": [0, 0, 0, 0]
@@ -520,7 +520,7 @@
     {
         "class": "tree_row",
         "layer0.texture": "",
-        "layer0.tint": [129, 162, 190], // 0D
+        "layer0.tint": [29, 31, 33], // 00
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -582,7 +582,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [40, 42, 46] // 01
+        "color": [255, 255, 255] // 07
     },
     // Sidebar entry transient
     {
@@ -621,7 +621,7 @@
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - El Capitan/Assets/file-dirty.png",
-        "layer0.tint": [40, 42, 46], // 01
+        "layer0.tint": [255, 255, 255], // 07
         "layer0.opacity": 1.0
     },
     {
@@ -653,7 +653,7 @@
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
-        "layer0.tint": [29, 31, 33], // 00
+        "layer0.tint": [255, 255, 255], // 07
         "layer0.opacity": 1.0
     },
 
