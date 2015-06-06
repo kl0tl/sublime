@@ -9,7 +9,14 @@
   { "keys": ["super+shift+v"], "command": "paste" },
 
   { "keys": ["super+alt+c"], "command": "copy_path" },
-  { "keys": ["super+alt+w"], "command": "close_all" },
+
+  { "keys": ["super+k", "super+alt+w"], "command": "close_other_tabs" },
+  { "keys": ["super+k", "super+alt+shift+w"], "command": "close_all" },
+
+  { "keys": ["super+k", "super+backspace"], "command": "close_other_tabs_to_left" },
+  { "keys": ["super+k", "super+shift+backspace"], "command": "close_other_tabs_to_right" },
+
+  { "keys": ["super+shift+k", "super+shift+w"], "command": "close_other_windows" },
 
   {
     "keys": ["shift+alt+down"],
