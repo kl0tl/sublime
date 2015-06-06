@@ -41,7 +41,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#657b83</string>
+        <string>#586e75</string>
       </dict>
     </dict>
 
@@ -52,8 +52,22 @@
       <string>dired.item.parent_dir</string>
       <key>settings</key>
       <dict>
+        <key>foreground</key>
+        <string>#93a1a1</string>
         <key>fontStyle</key>
         <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Dir Slash</string>
+      <key>scope</key>
+      <string>punctuation.definition.directory.slash.dired</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#93a1a1</string>
       </dict>
     </dict>
 
@@ -65,7 +79,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#859900</string>
+        <string>#93a1a1</string>
       </dict>
     </dict>
 
@@ -76,8 +90,6 @@
       <string>string.name.directory.dired, string.name.project.dired</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#268bd2</string>
         <key>fontStyle</key>
         <string>bold</string>
       </dict>
@@ -91,7 +103,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6c71c4</string>
+        <string>#586e75</string>
       </dict>
     </dict>
 
@@ -103,7 +115,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#657b83</string>
+        <string>#586e75</string>
       </dict>
     </dict>
 
