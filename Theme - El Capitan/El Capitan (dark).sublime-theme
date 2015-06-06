@@ -455,7 +455,6 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "User/Theme - El Capitan/Assets/tooltip.png",
         "layer0.tint": [29, 31, 33], // 00
         "layer0.opacity": 1,
         "layer0.inner_margin": [1, 1],
