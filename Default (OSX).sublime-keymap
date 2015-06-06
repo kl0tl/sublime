@@ -241,7 +241,7 @@
     "command": "toggle_color_schemes",
     "args": {
       "themes": {
-        "light": "El Capitan.sublime-theme",
+        "light": "El Capitan (light).sublime-theme",
         "dark": "El Capitan (dark).sublime-theme"
       },
       "color_schemes": [
