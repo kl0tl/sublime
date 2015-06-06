@@ -1007,40 +1007,40 @@
     {
         "class": "icon_regex",
         "layer0.texture": "Theme - El Capitan/Assets/icon-regex.png",
-        "layer0.tint": [150, 152, 150], // 03
+        "layer0.tint": [55, 59, 65], // 02
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [129, 162, 190] // 0D
+        "layer0.tint": [255, 255, 255] // 07
     },
     // Case sensitive search button
     {
         "class": "icon_case",
         "layer0.texture": "Theme - El Capitan/Assets/icon-case.png",
-        "layer0.tint": [150, 152, 150], // 03
+        "layer0.tint": [55, 59, 65], // 02
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [129, 162, 190] // 0D
+        "layer0.tint": [255, 255, 255] // 07
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
         "layer0.texture": "Theme - El Capitan/Assets/icon-word.png",
-        "layer0.tint": [150, 152, 150], // 03
+        "layer0.tint": [55, 59, 65], // 02
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [129, 162, 190] // 0D
+        "layer0.tint": [255, 255, 255] // 07
     },
 
 //
@@ -1051,53 +1051,53 @@
     {
         "class": "icon_context",
         "layer0.texture": "Theme - El Capitan/Assets/icon-context.png",
-        "layer0.tint": [150, 152, 150], // 03
+        "layer0.tint": [55, 59, 65], // 02
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [129, 162, 190] // 0D
+        "layer0.tint": [255, 255, 255] // 07
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - El Capitan/Assets/icon-buffer.png",
-        "layer0.tint": [150, 152, 150], // 03
+        "layer0.tint": [55, 59, 65], // 02
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [129, 162, 190] // 0D
+        "layer0.tint": [255, 255, 255] // 07
     },
     // Search wrap button
     {
         "class": "icon_wrap",
         "layer0.texture": "Theme - El Capitan/Assets/icon-wrap.png",
-        "layer0.tint": [150, 152, 150], // 03
+        "layer0.tint": [55, 59, 65], // 02
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [129, 162, 190] // 0D
+        "layer0.tint": [255, 255, 255] // 07
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
         "layer0.texture": "Theme - El Capitan/Assets/icon-selection.png",
-        "layer0.tint": [150, 152, 150], // 03
+        "layer0.tint": [55, 59, 65], // 02
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [129, 162, 190] // 0D
+        "layer0.tint": [255, 255, 255] // 07
     },
 
 //
@@ -1108,14 +1108,14 @@
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - El Capitan/Assets/icon-preserve.png",
-        "layer0.tint": [150, 152, 150], // 03
+        "layer0.tint": [55, 59, 65], // 02
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [129, 162, 190] // 0D
+        "layer0.tint": [255, 255, 255] // 07
     },
 
 //
@@ -1126,14 +1126,14 @@
     {
         "class": "icon_highlight",
         "layer0.texture": "Theme - El Capitan/Assets/icon-highlight.png",
-        "layer0.tint": [150, 152, 150], // 03
+        "layer0.tint": [55, 59, 65], // 02
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [129, 162, 190] // 0D
+        "layer0.tint": [255, 255, 255] // 07
     }
 
 ]
