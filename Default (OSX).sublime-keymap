@@ -21,8 +21,8 @@
   { "keys": ["ctrl+alt+up"], "command": "scroll_lines_enhanced", "args": { "amount": -2 } },
   { "keys": ["ctrl+alt+down"], "command": "scroll_lines_enhanced", "args": { "amount": 2 } },
 
-  { "keys": ["ctrl+alt+left"], "command": "scroll_width", "args": { "amount": -2 } },
-  { "keys": ["ctrl+alt+right"], "command": "scroll_width", "args": { "amount": 2 } },
+  { "keys": ["ctrl+alt+shift+left"], "command": "scroll_width", "args": { "amount": -2 } },
+  { "keys": ["ctrl+alt+shift+right"], "command": "scroll_width", "args": { "amount": 2 } },
 
   {
     "keys": ["shift+alt+down"],
