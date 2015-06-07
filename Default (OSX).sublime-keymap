@@ -300,8 +300,16 @@
   },
 
   {
-    "keys": ["super+k", "super+m"],
+    "keys": ["super+k", "super+h", "super+t"],
+    "command": "toggle_tabs"
+  },
+  {
+    "keys": ["super+k", "super+h", "super+m"],
     "command": "toggle_minimap"
+  },
+  {
+    "keys": ["super+k", "super+h", "super+s"],
+    "command": "toggle_status_bar"
   },
 
   {
