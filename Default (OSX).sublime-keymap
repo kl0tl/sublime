@@ -375,6 +375,7 @@
   },
 
   { "keys": ["super+k", "super+="], "command": "set_mark" },
+  { "keys": ["super+k", "super+delete"], "command": "delete_to_mark" },
 
   { "keys": ["alt+="], "command": "mark_and_move_save" },
   { "keys": ["alt+shift+="], "command": "mark_and_move_clear" },
