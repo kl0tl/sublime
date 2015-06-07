@@ -372,5 +372,12 @@
       "keys": ["ctrl+shift+;", "enter"],
       "command": "easy_motion",
       "args": {"select_text": true, "character": "enter"}
-  }
+  },
+
+  { "keys": ["alt+="], "command": "mark_and_move_save" },
+  { "keys": ["alt+shift+="], "command": "mark_and_move_clear" },
+  { "keys": ["alt+up"], "command": "mark_and_move_prev" },
+  { "keys": ["alt+down"], "command": "mark_and_move_next" },
+  { "keys": ["ctrl+shift+="], "command": "mark_and_move_recall" },
+  { "keys": ["ctrl+="], "command": "mark_and_move_do_it_all" }
 ]
