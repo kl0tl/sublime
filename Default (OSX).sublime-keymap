@@ -189,7 +189,7 @@
   },
   {
     "keys": ["'"],
-    "command": "move",
+    "command": "insert",
     "args": { "characters": "'" },
     "context": [
       { "key": "selection_empty", "operand": true, "match_all": true },
