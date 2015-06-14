@@ -17,15 +17,51 @@
   { "keys": ["super+shift+c"], "command": "side_bar_copy_name" },
   { "keys": ["super+alt+shift+c"], "command": "copy_folder_path" },
 
-  { "keys": ["super+k", "super+alt+w"], "command": "close_other_tabs" },
-  { "keys": ["super+k", "super+alt+shift+w"], "command": "close_all" },
-
+  { "keys": ["super+m"], "command": "close_other_tabs" },
   { "keys": ["super+k", "super+backspace"], "command": "close_other_tabs_to_left" },
   { "keys": ["super+k", "super+shift+backspace"], "command": "close_other_tabs_to_right" },
 
-  { "keys": ["super+shift+k", "super+shift+w"], "command": "close_other_windows" },
+  { "keys": ["super+shift+m"], "command": "close_other_windows" },
 
+  { "keys": ["super+k", "super+q", "super+a"], "command": "close_all" },
+  {
+    "keys": ["super+k", "super+q", "super+alt+a"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        { "command": "reset_layout", "context": "window" },
+        { "command": "close_all", "context": "window" }
+      ]
+    }
+  },
+  {
+    "keys": ["super+k", "super+alt+q"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        { "command": "close_other_windows", "context": "window" },
+        { "command": "reset_layout", "context": "window" },
+        { "command": "close_all", "context": "window" }
+      ]
+    }
+  },
 
+  { "keys": ["super+k", "super+m", "super+,"], "command": "reset_layout" },
+
+  { "keys": ["super+k", "super+w", "super+a"], "command": "close_all_in_active_group" },
+  { "keys": ["super+k", "super+w", "super+alt+a"], "command": "close_active_group_and_tabs" },
+
+  { "keys": ["super+k", "super+m", "super+a"], "command": "close_all_in_other_groups" },
+  {
+    "keys": ["super+k", "super+m", "super+alt+a"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        { "command": "close_all_in_other_groups", "context": "window" },
+        { "command": "reset_layout", "context": "window" }
+      ]
+    }
+  },
 
   { "keys": ["ctrl+alt+up"], "command": "scroll_lines_enhanced", "args": { "amount": -2 } },
   { "keys": ["ctrl+alt+down"], "command": "scroll_lines_enhanced", "args": { "amount": 2 } },
