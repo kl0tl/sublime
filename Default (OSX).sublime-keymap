@@ -468,5 +468,8 @@
     ]
   },
   { "keys": ["ctrl+shift+="], "command": "mark_and_move_recall" },
-  { "keys": ["ctrl+="], "command": "mark_and_move_do_it_all" }
+  { "keys": ["ctrl+="], "command": "mark_and_move_do_it_all" },
+
+  { "keys": ["super+k", "b", "v"], "command": "goto_begining_of_viewport" },
+  { "keys": ["super+k", "e", "v"], "command": "goto_end_of_viewport" }
 ]
