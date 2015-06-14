@@ -11,7 +11,7 @@
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/base16-tomorrow.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-solarized.light (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
 	"font_size": 14,
@@ -43,7 +43,7 @@
 	"show_full_path": true,
 	"show_line_endings": true,
 	"tab_size": 2,
-	"theme": "El Capitan (dark).sublime-theme",
+	"theme": "El Capitan (light).sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true
