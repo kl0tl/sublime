@@ -453,8 +453,20 @@
 
   { "keys": ["alt+="], "command": "mark_and_move_save" },
   { "keys": ["alt+shift+="], "command": "mark_and_move_clear" },
-  { "keys": ["alt+up"], "command": "mark_and_move_prev" },
-  { "keys": ["alt+down"], "command": "mark_and_move_next" },
+  {
+    "keys": ["alt+up"],
+    "command": "mark_and_move_prev",
+    "context": [
+      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+    ]
+  },
+  {
+    "keys": ["alt+down"],
+    "command": "mark_and_move_next",
+    "context": [
+      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+    ]
+  },
   { "keys": ["ctrl+shift+="], "command": "mark_and_move_recall" },
   { "keys": ["ctrl+="], "command": "mark_and_move_do_it_all" }
 ]
