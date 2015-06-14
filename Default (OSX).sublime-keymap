@@ -7,8 +7,13 @@
 
   { "keys": ["super+v"], "command": "paste_and_indent" },
   { "keys": ["super+shift+v"], "command": "paste" },
-
-  { "keys": ["super+alt+c"], "command": "copy_path" },
+  {
+    "keys": ["super+alt+c"],
+    "command": "copy_path",
+    "context": [
+      { "key": "setting.is_widget", "operand": false }
+    ]
+  },
   { "keys": ["super+shift+c"], "command": "copy_file_name" },
   { "keys": ["super+alt+shift+c"], "command": "copy_folder_path" },
 
