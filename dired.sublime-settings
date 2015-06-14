@@ -7,5 +7,6 @@
 		"workspace": "/Users/kl0tl/workspace/"
 	},
 	"dired_open_on_jump": true,
-	"dired_show_full_path": true
+	"dired_show_full_path": true,
+	"dired_smart_jump": true
 }
