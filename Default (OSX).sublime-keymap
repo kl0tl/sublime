@@ -354,15 +354,15 @@
   },
 
   {
-    "keys": ["super+k", "super+h", "super+t"],
+    "keys": ["super+shift+h", "t"],
     "command": "toggle_tabs"
   },
   {
-    "keys": ["super+k", "super+h", "super+m"],
+    "keys": ["super+shift+h", "m"],
     "command": "toggle_minimap"
   },
   {
-    "keys": ["super+k", "super+h", "super+s"],
+    "keys": ["super+shift+h", "s"],
     "command": "toggle_status_bar"
   },
 
