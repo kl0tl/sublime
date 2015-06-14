@@ -369,6 +369,11 @@
     "keys": ["super+shift+h", "s"],
     "command": "toggle_status_bar"
   },
+  {
+    "keys": ["super+shift+h", "g"],
+    "command": "toggle_setting",
+    "args": { "setting": "gutter" }
+  },
 
   {
     "keys": ["super+k", "super+b"],
