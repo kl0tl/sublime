@@ -362,6 +362,10 @@
     "command": "toggle_minimap"
   },
   {
+    "keys": ["super+shift+h", "b"],
+    "command": "toggle_side_bar"
+  },
+  {
     "keys": ["super+shift+h", "s"],
     "command": "toggle_status_bar"
   },
