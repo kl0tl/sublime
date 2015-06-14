@@ -9,12 +9,12 @@
   { "keys": ["super+shift+v"], "command": "paste" },
   {
     "keys": ["super+alt+c"],
-    "command": "copy_path",
+    "command": "side_bar_copy_path",
     "context": [
       { "key": "setting.is_widget", "operand": false }
     ]
   },
-  { "keys": ["super+shift+c"], "command": "copy_file_name" },
+  { "keys": ["super+shift+c"], "command": "side_bar_copy_name" },
   { "keys": ["super+alt+shift+c"], "command": "copy_folder_path" },
 
   { "keys": ["super+k", "super+alt+w"], "command": "close_other_tabs" },
