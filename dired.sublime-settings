@@ -6,5 +6,6 @@
 		"projects": "/Users/kl0tl/projects/",
 		"workspace": "/Users/kl0tl/workspace/"
 	},
+	"dired_open_on_jump": true,
 	"dired_show_full_path": true
 }
