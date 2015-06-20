@@ -139,6 +139,20 @@
 			</dict>
 		</dict>
 
+		<dict>
+		  <key>name</key>
+		  <string>EasyMotion Jump Target</string>
+		  <key>scope</key>
+		  <string>easymotion.jump-target</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#000000</string>
+		    <key>background</key>
+		    <string>#ffffff</string>
+		  </dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>edcc9b28-ac04-4b4a-8fa3-f4be3c0d3b02</string>
