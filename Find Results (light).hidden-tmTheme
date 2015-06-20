@@ -76,7 +76,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#657b83</string>
+				<string>#586e7599</string>
 			</dict>
 		</dict>
 
@@ -86,9 +86,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#657b83</string>
+				<string>#586e7599</string>
 				<key>background</key>
-				<string>#657b8366</string>
+				<string>#83949655</string>
 			</dict>
 		</dict>
 
@@ -98,9 +98,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#657b8366</string>
+				<string>#83949655</string>
 				<key>background</key>
-				<string>#657b8366</string>
+				<string>#83949655</string>
 			</dict>
 		</dict>
 
