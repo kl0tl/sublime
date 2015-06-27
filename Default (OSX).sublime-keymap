@@ -502,5 +502,16 @@
   { "keys": ["ctrl+r", "§"], "command": "repeat_last_command", "args": { "times": 6 } },
   { "keys": ["ctrl+r", "è"], "command": "repeat_last_command", "args": { "times": 7 } },
   { "keys": ["ctrl+r", "!"], "command": "repeat_last_command", "args": { "times": 8 } },
-  { "keys": ["ctrl+r", "ç"], "command": "repeat_last_command", "args": { "times": 9 } }
+  { "keys": ["ctrl+r", "ç"], "command": "repeat_last_command", "args": { "times": 9 } },
+
+  { "keys": ["super+&"], "command": "select_by_index", "args": { "index": 0 } },
+  { "keys": ["super+é"], "command": "select_by_index", "args": { "index": 1 } },
+  { "keys": ["super+\""], "command": "select_by_index", "args": { "index": 2 } },
+  { "keys": ["super+'"], "command": "select_by_index", "args": { "index": 3 } },
+  { "keys": ["super+("], "command": "select_by_index", "args": { "index": 4 } },
+  { "keys": ["super+§"], "command": "select_by_index", "args": { "index": 5 } },
+  { "keys": ["super+è"], "command": "select_by_index", "args": { "index": 6 } },
+  { "keys": ["super+!"], "command": "select_by_index", "args": { "index": 7 } },
+  { "keys": ["super+ç"], "command": "select_by_index", "args": { "index": 8 } },
+  { "keys": ["super+à"], "command": "select_by_index", "args": { "index": 9 } }
 ]
