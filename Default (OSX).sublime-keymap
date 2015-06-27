@@ -459,6 +459,11 @@
   { "keys": ["super+k", "super+alt+down"], "command": "create_pane_with_cloned_file", "args": { "direction": "down" } },
   { "keys": ["super+k", "super+alt+left"], "command": "create_pane_with_cloned_file", "args": { "direction": "left" } },
 
+  { "keys": ["super+k", "super+ctrl+up"], "command": "pull_file_from_pane", "args": { "direction": "up" } },
+  { "keys": ["super+k", "super+ctrl+right"], "command": "pull_file_from_pane", "args": { "direction": "right" } },
+  { "keys": ["super+k", "super+ctrl+down"], "command": "pull_file_from_pane", "args": { "direction": "down" } },
+  { "keys": ["super+k", "super+ctrl+left"], "command": "pull_file_from_pane", "args": { "direction": "left" } },
+
   {
     "keys": ["ctrl+;", "<character>"],
     "command": "easy_motion",
