@@ -103,6 +103,38 @@
   { "keys": ["ctrl+alt+shift+m"], "command": "move_to_quotes", "args": { "expand": true } },
 
   {
+    "keys": ["alt+up"],
+    "command": "move",
+    "args": { "by": "stops", "empty_line": true, "forward": false },
+    "context": [
+      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+up"],
+    "command": "expand_selection_to_empty_line",
+    "args": { "forward": false },
+    "context": [
+      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+    ]
+  },
+  {
+    "keys": ["alt+down"],
+    "command": "move",
+    "args": { "by": "stops", "empty_line": true, "forward": true },
+    "context": [
+      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+down"],
+    "command": "expand_selection_to_empty_line",
+    "context": [
+      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+    ]
+  },
+
+  {
     "keys": ["&"],
     "command": "insert",
     "args": { "characters": "1" },
@@ -453,20 +485,8 @@
 
   { "keys": ["alt+="], "command": "mark_and_move_save" },
   { "keys": ["alt+shift+="], "command": "mark_and_move_clear" },
-  {
-    "keys": ["alt+up"],
-    "command": "mark_and_move_prev",
-    "context": [
-      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
-    ]
-  },
-  {
-    "keys": ["alt+down"],
-    "command": "mark_and_move_next",
-    "context": [
-      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
-    ]
-  },
+  { "keys": ["alt+shift+minus"], "command": "mark_and_move_prev" },
+  { "keys": ["alt+minus"], "command": "mark_and_move_next" },
   { "keys": ["ctrl+shift+="], "command": "mark_and_move_recall" },
   { "keys": ["ctrl+="], "command": "mark_and_move_do_it_all" },
 
