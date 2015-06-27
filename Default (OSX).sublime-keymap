@@ -515,5 +515,7 @@
   { "keys": ["super+!"], "command": "select_by_index", "args": { "index": 7 } },
   { "keys": ["super+ç"], "command": "select_by_index", "args": { "index": 8 } },
   { "keys": ["super+à"], "command": "select_by_index", "args": { "index": 9 } },
-  { "keys": ["ctrl+à"], "command": "focus_side_bar" }
+  { "keys": ["ctrl+à"], "command": "focus_side_bar" },
+
+  { "keys": ["super+k", "tab"], "command": "reindent" }
 ]
