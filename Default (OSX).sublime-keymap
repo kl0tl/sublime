@@ -513,5 +513,6 @@
   { "keys": ["super+è"], "command": "select_by_index", "args": { "index": 6 } },
   { "keys": ["super+!"], "command": "select_by_index", "args": { "index": 7 } },
   { "keys": ["super+ç"], "command": "select_by_index", "args": { "index": 8 } },
-  { "keys": ["super+à"], "command": "select_by_index", "args": { "index": 9 } }
+  { "keys": ["super+à"], "command": "select_by_index", "args": { "index": 9 } },
+  { "keys": ["ctrl+à"], "command": "focus_side_bar" }
 ]
