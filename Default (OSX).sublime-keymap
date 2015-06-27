@@ -336,6 +336,7 @@
     "command": "show_panel",
     "args": { "panel": "console", "toggle": true }
   },
+  { "keys": ["ctrl+shift+ù"], "command": "context_menu" },
 
   {
     "keys": ["super+k", "super+i"],
