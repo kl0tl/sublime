@@ -72,6 +72,7 @@
   {
     "keys": ["shift+alt+down"],
     "command": "find_in_files_jump_file",
+    "args": { "wrap": true },
     "context": [
         {"key": "selector", "operand": "text.find-in-files" }
     ]
@@ -79,7 +80,7 @@
   {
     "keys": ["shift+alt+up"],
     "command": "find_in_files_jump_file",
-    "args": { "forward": false },
+    "args": { "forward": false, "wrap": true },
     "context": [
         {"key": "selector", "operand": "text.find-in-files" }
     ]
@@ -87,6 +88,7 @@
   {
     "keys": ["alt+down"],
     "command": "find_in_files_jump_match",
+    "args": { "wrap": true },
     "context": [
         {"key": "selector", "operand": "text.find-in-files" }
     ]
@@ -94,7 +96,7 @@
   {
     "keys": ["alt+up"],
     "command": "find_in_files_jump_match",
-    "args": { "forward": false },
+    "args": { "forward": false, "wrap": true },
     "context": [
         {"key": "selector", "operand": "text.find-in-files" }
     ]
