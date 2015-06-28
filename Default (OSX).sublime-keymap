@@ -29,7 +29,7 @@
     "command": "run_multiple_commands",
     "args": {
       "commands": [
-        { "command": "reset_layout", "context": "window" },
+        { "command": "restore_layout", "args": { "nickname": "cero" }, "context": "window" },
         { "command": "close_all", "context": "window" }
       ]
     }
@@ -40,13 +40,13 @@
     "args": {
       "commands": [
         { "command": "close_other_windows", "context": "window" },
-        { "command": "reset_layout", "context": "window" },
+        { "command": "restore_layout", "args": { "nickname": "cero" }, "context": "window" },
         { "command": "close_all", "context": "window" }
       ]
     }
   },
 
-  { "keys": ["super+k", "super+m", "super+,"], "command": "reset_layout" },
+  { "keys": ["super+k", "super+m", "super+,"], "command": "restore_layout", "args": { "nickname": "cero" } },
 
   { "keys": ["super+k", "super+w", "super+a"], "command": "close_all_in_active_group" },
   { "keys": ["super+k", "super+w", "super+alt+a"], "command": "close_active_group_and_tabs" },
@@ -58,7 +58,7 @@
     "args": {
       "commands": [
         { "command": "close_all_in_other_groups", "context": "window" },
-        { "command": "reset_layout", "context": "window" }
+        { "command": "restore_layout", "args": { "nickname": "cero" }, "context": "window" }
       ]
     }
   },
