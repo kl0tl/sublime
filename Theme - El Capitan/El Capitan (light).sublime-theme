@@ -330,7 +330,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": [253, 246, 227], // 07
         "layer0.opacity": 1.0
     },
 
