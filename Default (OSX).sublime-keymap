@@ -410,6 +410,11 @@
     "command": "toggle_setting",
     "args": { "setting": "gutter" }
   },
+  {
+    "keys": ["super+shift+h", "l"],
+    "command": "toggle_setting",
+    "args": { "setting": "highlight_line" }
+  },
 
   {
     "keys": ["super+k", "super+b"],
