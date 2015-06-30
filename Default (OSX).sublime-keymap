@@ -508,7 +508,8 @@
   { "keys": ["super+k", "b", "v"], "command": "goto_begining_of_viewport" },
   { "keys": ["super+k", "e", "v"], "command": "goto_end_of_viewport" },
 
-  { "keys": ["ctrl+r", "&"], "command": "repeat_last_command" },
+  { "keys": ["ctrl+r", "x"], "command": "repeat_last_command" },
+  { "keys": ["ctrl+r", "&"], "command": "repeat_last_command", "args": { "times": 1 } },
   { "keys": ["ctrl+r", "é"], "command": "repeat_last_command", "args": { "times": 2 } },
   { "keys": ["ctrl+r", "\""], "command": "repeat_last_command", "args": { "times": 3 } },
   { "keys": ["ctrl+r", "'"], "command": "repeat_last_command", "args": { "times": 4 } },
