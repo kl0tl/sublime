@@ -4,6 +4,7 @@
   { "keys": ["super+shift+;"], "command": "open_file", "args": { "file": "${packages}/Default/Default (OSX).sublime-keymap" } },
 
   { "keys": ["alt+shift+tab"], "command": "indent" },
+  { "keys": ["super+k", "tab"], "command": "reindent" },
 
   { "keys": ["super+v"], "command": "paste_and_indent" },
   { "keys": ["super+shift+v"], "command": "paste" },
@@ -924,8 +925,6 @@
   { "keys": ["super+ç"], "command": "select_by_index", "args": { "index": 8 } },
   { "keys": ["super+à"], "command": "select_by_index", "args": { "index": 9 } },
   { "keys": ["ctrl+à"], "command": "focus_side_bar" },
-
-  { "keys": ["super+k", "tab"], "command": "reindent" },
 
   { "keys": ["super+k", "s", "s"], "command": "toggle_sync_scroll" }
 ]
