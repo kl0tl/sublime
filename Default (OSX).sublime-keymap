@@ -488,6 +488,36 @@
       "args": {"select_text": false, "character": "enter"}
   },
   {
+      "keys": ["ctrl+;", "alt+("],
+      "command": "easy_motion",
+      "args": {"select_text": false, "character": "{"}
+  },
+  {
+      "keys": ["ctrl+;", "alt+)"],
+      "command": "easy_motion",
+      "args": {"select_text": false, "character": "}"}
+  },
+  {
+      "keys": ["ctrl+;", "alt+shift+("],
+      "command": "easy_motion",
+      "args": {"select_text": false, "character": "["}
+  },
+  {
+      "keys": ["ctrl+;", "alt+shift+)"],
+      "command": "easy_motion",
+      "args": {"select_text": false, "character": "]"}
+  },
+  {
+      "keys": ["ctrl+;", "alt+shift+l"],
+      "command": "easy_motion",
+      "args": {"select_text": false, "character": "|"}
+  },
+  {
+      "keys": ["ctrl+;", "alt+shift+:"],
+      "command": "easy_motion",
+      "args": {"select_text": false, "character": "\\"}
+  },
+  {
       "keys": ["ctrl+shift+;", "<character>"],
       "command": "easy_motion",
       "args": {"select_text": true}
@@ -496,6 +526,36 @@
       "keys": ["ctrl+shift+;", "enter"],
       "command": "easy_motion",
       "args": {"select_text": true, "character": "enter"}
+  },
+  {
+      "keys": ["ctrl+shift+;", "alt+("],
+      "command": "easy_motion",
+      "args": {"select_text": true, "character": "{"}
+  },
+  {
+      "keys": ["ctrl+shift+;", "alt+)"],
+      "command": "easy_motion",
+      "args": {"select_text": true, "character": "}"}
+  },
+  {
+      "keys": ["ctrl+shift+;", "alt+shift+("],
+      "command": "easy_motion",
+      "args": {"select_text": true, "character": "["}
+  },
+  {
+      "keys": ["ctrl+shift+;", "alt+shift+)"],
+      "command": "easy_motion",
+      "args": {"select_text": true, "character": "]"}
+  },
+  {
+      "keys": ["ctrl+shift+;", "alt+shift+l"],
+      "command": "easy_motion",
+      "args": {"select_text": true, "character": "|"}
+  },
+  {
+      "keys": ["ctrl+shift+;", "alt+shift+:"],
+      "command": "easy_motion",
+      "args": {"select_text": true, "character": "\\"}
   },
 
   { "keys": ["super+k", "super+="], "command": "set_mark" },
