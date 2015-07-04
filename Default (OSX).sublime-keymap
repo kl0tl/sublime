@@ -519,6 +519,97 @@
   { "keys": ["ctrl+r", "!"], "command": "repeat_last_command", "args": { "times": 8 } },
   { "keys": ["ctrl+r", "ç"], "command": "repeat_last_command", "args": { "times": 9 } },
 
+  {
+    "keys": ["&"],
+    "command": "insert",
+    "args": { "characters": "1" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+  {
+    "keys": ["é"],
+    "command": "insert",
+    "args": { "characters": "2" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+  {
+    "keys": ["\""],
+    "command": "insert",
+    "args": { "characters": "3" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+  {
+    "keys": ["'"],
+    "command": "insert",
+    "args": { "characters": "4" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+  {
+    "keys": ["("],
+    "command": "insert",
+    "args": { "characters": "5" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+  {
+    "keys": ["§"],
+    "command": "insert",
+    "args": { "characters": "6" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+  {
+    "keys": ["è"],
+    "command": "insert",
+    "args": { "characters": "7" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+  {
+    "keys": ["!"],
+    "command": "insert",
+    "args": { "characters": "8" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+  {
+    "keys": ["ç"],
+    "command": "insert",
+    "args": { "characters": "9" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+  {
+    "keys": ["à"],
+    "command": "insert",
+    "args": { "characters": "0" },
+    "context": [
+      { "key": "setting.repeat_last_command_panel" },
+      { "key": "panel_has_focus" }
+    ]
+  },
+
   { "keys": ["super+&"], "command": "select_by_index", "args": { "index": 0 } },
   { "keys": ["super+é"], "command": "select_by_index", "args": { "index": 1 } },
   { "keys": ["super+\""], "command": "select_by_index", "args": { "index": 2 } },
