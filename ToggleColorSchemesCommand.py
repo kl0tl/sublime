@@ -4,8 +4,8 @@ def update_settings(path, key, value):
   sublime.load_settings(path).set(key, value)
   sublime.save_settings(path)
 
-class ToggleColorSchemesCommand(sublime_plugin.TextCommand):
-  def run(self, edit, themes, color_schemes):
+class ToggleColorSchemesCommand(sublime_plugin.WindowCommand):
+  def run(self, themes, color_schemes):
     settings = sublime.load_settings('Preferences.sublime-settings')
 
     light_theme = themes['light']
@@ -20,7 +20,7 @@ class ToggleColorSchemesCommand(sublime_plugin.TextCommand):
       new_scheme = color_scheme.get('light' if was_dark_theme else 'dark')
       update_settings(color_scheme.get('settings'), 'color_scheme', new_scheme)
 
-    for view in sublime.active_window().views():
+    for view in self.window.views():
         best_score = -1
         best_candidate = None
 
