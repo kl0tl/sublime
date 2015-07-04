@@ -279,8 +279,8 @@
     "command": "move",
     "args": { "by": "characters", "forward": true },
     "context": [
-      { "key": "following_text", "operator": "regex_contains", "operand": "^[)'\"\\]}]", "match_all": true },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": "[('\"\\[{]", "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^[)`'\"’”›»>\\]}]", "match_all": true },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "[(`'\"‘“‹«<\\[{]", "match_all": true },
       { "key": "selector", "operator": "not_equal", "operand": "punctuation.definition.string.begin" },
       { "key": "auto_complete_visible", "operator": "equal", "operand": false },
       { "key": "selection_empty", "operand": true, "match_all": true }
@@ -291,8 +291,8 @@
     "command": "move",
     "args": { "by": "characters", "forward": false },
     "context": [
-      { "key": "preceding_text", "operator": "regex_contains", "operand": "[)'\"\\]}]$", "match_all": true },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": "[('\"\\[{]", "match_all": true },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "[)`'\"’”›»>\\]}]$", "match_all": true },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "[(`'\"‘“‹«<\\[{]", "match_all": true },
       { "key": "auto_complete_visible", "operator": "equal", "operand": false },
       { "key": "selection_empty", "operand": true, "match_all": true }
     ]
