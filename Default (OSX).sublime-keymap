@@ -7,15 +7,6 @@
 
   { "keys": ["super+v"], "command": "paste_and_indent" },
   { "keys": ["super+shift+v"], "command": "paste" },
-  {
-    "keys": ["super+alt+c"],
-    "command": "side_bar_copy_path",
-    "context": [
-      { "key": "setting.is_widget", "operand": false }
-    ]
-  },
-  { "keys": ["super+shift+c"], "command": "side_bar_copy_name" },
-  { "keys": ["super+alt+shift+c"], "command": "copy_folder_path" },
 
   { "keys": ["super+m"], "command": "close_other_tabs" },
   { "keys": ["super+k", "super+backspace"], "command": "close_other_tabs_to_left" },
