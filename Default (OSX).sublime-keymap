@@ -61,6 +61,8 @@
   { "keys": ["ctrl+alt+shift+up"], "command": "scroll_width", "args": { "amount": -2 } },
   { "keys": ["ctrl+alt+shift+down"], "command": "scroll_width", "args": { "amount": 2 } },
 
+  { "keys": ["super+k", "s", "s"], "command": "toggle_sync_scroll" },
+
   {
     "keys": ["shift+alt+down"],
     "command": "find_in_files_jump_file",
@@ -924,7 +926,5 @@
   { "keys": ["super+!"], "command": "select_by_index", "args": { "index": 7 } },
   { "keys": ["super+ç"], "command": "select_by_index", "args": { "index": 8 } },
   { "keys": ["super+à"], "command": "select_by_index", "args": { "index": 9 } },
-  { "keys": ["ctrl+à"], "command": "focus_side_bar" },
-
-  { "keys": ["super+k", "s", "s"], "command": "toggle_sync_scroll" }
+  { "keys": ["ctrl+à"], "command": "focus_side_bar" }
 ]
