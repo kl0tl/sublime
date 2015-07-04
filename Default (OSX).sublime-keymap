@@ -518,6 +518,7 @@
   { "keys": ["ctrl+r", "è"], "command": "repeat_last_command", "args": { "times": 7 } },
   { "keys": ["ctrl+r", "!"], "command": "repeat_last_command", "args": { "times": 8 } },
   { "keys": ["ctrl+r", "ç"], "command": "repeat_last_command", "args": { "times": 9 } },
+  { "keys": ["ctrl+r", "ctrl+r"], "command": "repeat_last_command", "args": { "times": 1 } },
 
   {
     "keys": ["&"],
