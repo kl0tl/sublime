@@ -688,5 +688,7 @@
   { "keys": ["super+à"], "command": "select_by_index", "args": { "index": 9 } },
   { "keys": ["ctrl+à"], "command": "focus_side_bar" },
 
-  { "keys": ["super+k", "tab"], "command": "reindent" }
+  { "keys": ["super+k", "tab"], "command": "reindent" },
+
+  { "keys": ["super+k", "s", "s"], "command": "toggle_sync_scroll" }
 ]
