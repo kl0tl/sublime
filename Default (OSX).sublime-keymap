@@ -106,34 +106,65 @@
   { "keys": ["ctrl+alt+shift+m"], "command": "move_to_quotes", "args": { "expand": true } },
 
   {
-    "keys": ["alt+up"],
+    "keys": ["alt+up", "up"],
+    "command": "jump_prev_indent",
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+up", "up"],
+    "command": "jump_prev_indent",
+    "args": { "extend_selection": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+down", "down"],
+    "command": "jump_next_indent",
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+down", "down"],
+    "command": "jump_next_indent",
+    "args": { "extend_selection": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+
+  {
+    "keys": ["alt+up", "alt+up"],
     "command": "move",
     "args": { "by": "stops", "empty_line": true, "forward": false },
     "context": [
-      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
     ]
   },
   {
-    "keys": ["alt+shift+up"],
+    "keys": ["alt+shift+up", "alt+up"],
     "command": "expand_selection_to_empty_line",
     "args": { "forward": false },
     "context": [
-      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
     ]
   },
   {
-    "keys": ["alt+down"],
+    "keys": ["alt+down", "alt+down"],
     "command": "move",
     "args": { "by": "stops", "empty_line": true, "forward": true },
     "context": [
-      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
     ]
   },
   {
-    "keys": ["alt+shift+down"],
+    "keys": ["alt+shift+down", "alt+down"],
     "command": "expand_selection_to_empty_line",
     "context": [
-      {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files" }
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
     ]
   },
 
