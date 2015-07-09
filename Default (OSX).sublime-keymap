@@ -124,9 +124,41 @@
     ]
   },
   {
+    "keys": ["alt+up", "right"],
+    "command": "jump_prev_indent",
+    "args": { "indent_offset": 1 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+up", "left"],
+    "command": "jump_prev_indent",
+    "args": { "indent_offset": -1 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
     "keys": ["alt+shift+up", "up"],
     "command": "jump_prev_indent",
     "args": { "extend_selection": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+up", "right"],
+    "command": "jump_prev_indent",
+    "args": { "extend_selection": true, "indent_offset": 1 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+up", "left"],
+    "command": "jump_prev_indent",
+    "args": { "extend_selection": true, "indent_offset": -1 },
     "context": [
         {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
     ]
@@ -139,9 +171,41 @@
     ]
   },
   {
+    "keys": ["alt+down", "right"],
+    "command": "jump_next_indent",
+    "args": { "indent_offset": 1 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+down", "left"],
+    "command": "jump_next_indent",
+    "args": { "indent_offset": -1 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
     "keys": ["alt+shift+down", "down"],
     "command": "jump_next_indent",
     "args": { "extend_selection": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+down", "right"],
+    "command": "jump_prev_indent",
+    "args": { "extend_selection": true, "indent_offset": 1 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+down", "left"],
+    "command": "jump_prev_indent",
+    "args": { "extend_selection": true, "indent_offset": -1 },
     "context": [
         {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
     ]
