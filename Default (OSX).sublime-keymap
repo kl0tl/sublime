@@ -99,6 +99,23 @@
   { "keys": ["ctrl+alt+m"], "command": "move_to_quotes" },
   { "keys": ["ctrl+alt+shift+m"], "command": "move_to_quotes", "args": { "expand": true } },
 
+  { "keys": ["up"], "command": "smart_cursor", "args": {"cmd": "move", "by": "lines", "forward": false}, "context":
+    [
+      { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+      { "key": "setting.command_mode", "operand": false },
+      { "key": "setting.is_widget", "operator": "equal", "operand": false },
+      { "key": "panel_has_focus", "operator": "equal", "operand": false }
+    ]
+  },
+  { "keys": ["down"], "command": "smart_cursor", "args": {"cmd": "move", "by": "lines", "forward": true}, "context":
+    [
+      { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+      { "key": "setting.command_mode", "operand": false },
+      { "key": "setting.is_widget", "operator": "equal", "operand": false },
+      { "key": "panel_has_focus", "operator": "equal", "operand": false }
+    ]
+  },
+
   {
     "keys": ["alt+up", "up"],
     "command": "jump_prev_indent",
