@@ -180,6 +180,207 @@
   },
 
   {
+    "keys": ["alt+up", "&"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 1, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+up", "é"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 2, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+up", "\""],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 3, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+up", "'"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 4, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+up", "("],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 5, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+up", "§"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 6, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+up", "è"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 7, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+up", "!"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 8, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+up", "ç"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 9, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+up", "à"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 10, "cmd": "up" }
+  },
+  {
+    "keys": ["alt+down", "&"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 1, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+down", "é"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 2, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+down", "\""],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 3, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+down", "'"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 4, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+down", "("],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 5, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+down", "§"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 6, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+down", "è"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 7, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+down", "!"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 8, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+down", "ç"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 9, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+down", "à"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 10, "cmd": "down" }
+  },
+  {
+    "keys": ["alt+shift+up", "&"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 1, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+up", "é"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 2, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+up", "\""],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 3, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+up", "'"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 4, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+up", "("],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 5, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+up", "§"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 6, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+up", "è"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 7, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+up", "!"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 8, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+up", "ç"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 9, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+up", "à"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 10, "cmd": "up_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "&"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 1, "cmd": "down_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "é"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 2, "cmd": "down_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "\""],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 3, "cmd": "down_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "'"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 4, "cmd": "down_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "("],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 5, "cmd": "down_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "§"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 6, "cmd": "down_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "è"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 7, "cmd": "down_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "!"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 8, "cmd": "down_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "ç"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 9, "cmd": "down_select" }
+  },
+  {
+    "keys": ["alt+shift+down", "à"],
+    "command": "line_jumper",
+    "args": { "number_of_lines": 10, "cmd": "down_select" }
+  },
+
+  {
     "keys": ["&"],
     "command": "insert",
     "args": { "characters": "1" },
