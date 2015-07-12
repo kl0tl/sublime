@@ -245,203 +245,354 @@
 
   {
     "keys": ["alt+up", "&"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 1, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 1, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+up", "é"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 2, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 2, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+up", "\""],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 3, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 3, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+up", "'"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 4, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 4, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+up", "("],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 5, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 5, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+up", "§"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 6, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 6, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+up", "è"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 7, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 7, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+up", "!"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 8, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 8, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+up", "ç"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 9, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 9, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+up", "à"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 10, "cmd": "up" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 10, "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+up", "x"],
+    "command": "jump_lines",
+    "args": { "forward": false },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "&"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 1, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 1 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "é"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 2, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 2 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "\""],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 3, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 3 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "'"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 4, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 4 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "("],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 5, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 5 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "§"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 6, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 6 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "è"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 7, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 7 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "!"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 8, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 8 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "ç"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 9, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 9 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+down", "à"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 10, "cmd": "down" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 10 },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+down", "x"],
+    "command": "jump_lines",
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "&"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 1, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 1, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "é"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 2, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 2, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "\""],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 3, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 3, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "'"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 4, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 4, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "("],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 5, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 5, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "§"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 6, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 6, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "è"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 7, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 7, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "!"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 8, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 8, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "ç"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 9, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 9, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+up", "à"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 10, "cmd": "up_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 10, "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+up", "x"],
+    "command": "jump_lines",
+    "args": { "forward": false, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "&"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 1, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 1, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "é"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 2, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 2, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "\""],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 3, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 3, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "'"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 4, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 4, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "("],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 5, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 5, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "§"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 6, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 6, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "è"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 7, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 7, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "!"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 8, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 8, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "ç"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 9, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 9, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
   {
     "keys": ["alt+shift+down", "à"],
-    "command": "line_jumper",
-    "args": { "number_of_lines": 10, "cmd": "down_select" }
+    "command": "jump_lines",
+    "args": { "number_of_lines": 10, "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
+  },
+  {
+    "keys": ["alt+shift+down", "x"],
+    "command": "jump_lines",
+    "args": { "extend": true },
+    "context": [
+        {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
+    ]
   },
 
   {
