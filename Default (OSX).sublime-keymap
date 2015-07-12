@@ -196,7 +196,7 @@
   },
   {
     "keys": ["alt+shift+down", "right"],
-    "command": "jump_prev_indent",
+    "command": "jump_next_indent",
     "args": { "extend_selection": true, "indent_offset": 1 },
     "context": [
         {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
@@ -204,7 +204,7 @@
   },
   {
     "keys": ["alt+shift+down", "left"],
-    "command": "jump_prev_indent",
+    "command": "jump_next_indent",
     "args": { "extend_selection": true, "indent_offset": -1 },
     "context": [
         {"key": "selector", "operand": "text.find-in-files", "operator": "not_equal" }
