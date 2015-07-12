@@ -450,7 +450,7 @@
     "args": { "characters": "1" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
   {
@@ -459,7 +459,7 @@
     "args": { "characters": "2" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
   {
@@ -468,7 +468,7 @@
     "args": { "characters": "3" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
   {
@@ -477,7 +477,7 @@
     "args": { "characters": "4" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
   {
@@ -486,7 +486,7 @@
     "args": { "characters": "5" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
   {
@@ -495,7 +495,7 @@
     "args": { "characters": "6" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
   {
@@ -504,7 +504,7 @@
     "args": { "characters": "7" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
   {
@@ -513,7 +513,7 @@
     "args": { "characters": "8" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
   {
@@ -522,7 +522,7 @@
     "args": { "characters": "9" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
   {
@@ -531,7 +531,7 @@
     "args": { "characters": "0" },
     "context": [
       { "key": "overlay_visible" },
-      { "key": "preceding_text", "operator": "regex_contains", "operand": ":" }
+      { "key": "preceding_text", "operator": "regex_contains", "operand": ":\\d*$" }
     ]
   },
 
