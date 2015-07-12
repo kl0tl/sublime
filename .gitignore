@@ -13,3 +13,6 @@ Color Highlighter/
 SublimeLinter/
 
 bh_unicode_properties.cache
+
+FileHistory.json
+FileHistory_*.json
