@@ -1355,5 +1355,25 @@
   { "keys": ["super+!"], "command": "select_by_index", "args": { "index": 7 } },
   { "keys": ["super+ç"], "command": "select_by_index", "args": { "index": 8 } },
   { "keys": ["super+à"], "command": "select_by_index", "args": { "index": 9 } },
-  { "keys": ["ctrl+à"], "command": "focus_side_bar" }
+  { "keys": ["ctrl+à"], "command": "focus_side_bar" },
+
+  { "keys": ["ctrl+alt+c", "s"], "command": "convert_to_snake" },
+  { "keys": ["ctrl+alt+c", "c"], "command": "convert_to_camel" },
+  { "keys": ["ctrl+alt+c", "p"], "command": "convert_to_pascal" },
+  {
+    "keys": ["ctrl+alt+c", "t"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        { "command": "convert_to_pascal", "context": "text" },
+        { "command": "convert_to_separate_words", "context": "text" }
+      ]
+    }
+  },
+  { "keys": ["ctrl+alt+c", ";"], "command": "convert_to_dot" },
+  { "keys": ["ctrl+alt+c", "d"], "command": "convert_to_dot" },
+  { "keys": ["ctrl+alt+c", "h"], "command": "convert_to_dash" },
+  { "keys": ["ctrl+alt+c", "-"], "command": "convert_to_dash" },
+  { "keys": ["ctrl+alt+c", "w"], "command": "convert_to_separate_words" },
+  { "keys": ["ctrl+alt+c", ":"], "command": "convert_to_slash" }
 ]
