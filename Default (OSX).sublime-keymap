@@ -1235,6 +1235,25 @@
   { "keys": ["ctrl+r", "ç"], "command": "repeat_last_command", "args": { "times": 9 } },
   { "keys": ["ctrl+r", "ctrl+r"], "command": "repeat_last_command", "args": { "times": 1 } },
 
+  { "keys": ["ctrl+shift+r", "x"], "command": "repeat_next_command" },
+  { "keys": ["ctrl+shift+r", "&"], "command": "repeat_next_command", "args": { "times": 1 } },
+  { "keys": ["ctrl+shift+r", "é"], "command": "repeat_next_command", "args": { "times": 2 } },
+  { "keys": ["ctrl+shift+r", "\""], "command": "repeat_next_command", "args": { "times": 3 } },
+  { "keys": ["ctrl+shift+r", "'"], "command": "repeat_next_command", "args": { "times": 4 } },
+  { "keys": ["ctrl+shift+r", "("], "command": "repeat_next_command", "args": { "times": 5 } },
+  { "keys": ["ctrl+shift+r", "§"], "command": "repeat_next_command", "args": { "times": 6 } },
+  { "keys": ["ctrl+shift+r", "è"], "command": "repeat_next_command", "args": { "times": 7 } },
+  { "keys": ["ctrl+shift+r", "!"], "command": "repeat_next_command", "args": { "times": 8 } },
+  { "keys": ["ctrl+shift+r", "ç"], "command": "repeat_next_command", "args": { "times": 9 } },
+  { "keys": ["ctrl+shift+r", "ctrl+shift+r"], "command": "repeat_next_command", "args": { "times": 1 } },
+  {
+    "keys": ["escape"],
+    "command": "stop_repeat_next_command",
+    "context": [
+      { "key": "setting.repeat_next_command" }
+    ]
+  },
+
   {
     "keys": ["&"],
     "command": "insert",
