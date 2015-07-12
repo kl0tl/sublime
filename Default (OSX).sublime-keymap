@@ -1089,7 +1089,7 @@
     "command": "insert",
     "args": { "characters": "1" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },
@@ -1098,7 +1098,7 @@
     "command": "insert",
     "args": { "characters": "2" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },
@@ -1107,7 +1107,7 @@
     "command": "insert",
     "args": { "characters": "3" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },
@@ -1116,7 +1116,7 @@
     "command": "insert",
     "args": { "characters": "4" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },
@@ -1125,7 +1125,7 @@
     "command": "insert",
     "args": { "characters": "5" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },
@@ -1134,7 +1134,7 @@
     "command": "insert",
     "args": { "characters": "6" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },
@@ -1143,7 +1143,7 @@
     "command": "insert",
     "args": { "characters": "7" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },
@@ -1152,7 +1152,7 @@
     "command": "insert",
     "args": { "characters": "8" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },
@@ -1161,7 +1161,7 @@
     "command": "insert",
     "args": { "characters": "9" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },
@@ -1170,7 +1170,7 @@
     "command": "insert",
     "args": { "characters": "0" },
     "context": [
-      { "key": "setting.repeat_last_command_panel" },
+      { "key": "setting.auto_insert_numbers" },
       { "key": "panel_has_focus" }
     ]
   },

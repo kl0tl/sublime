@@ -19,7 +19,7 @@ class RepeatLastCommandCommand(sublime_plugin.TextCommand):
 
   def ask_for_ttr(self):
     input_panel = self.view.window().show_input_panel('How many times ?', '', self.on_done, None, None)
-    input_panel.settings().set('repeat_last_command_panel', True)
+    input_panel.settings().set('auto_insert_numbers', True)
 
   def repeat_last_command(self, times):
     command, args, _ = self.view.command_history(0, True)
