@@ -22,7 +22,7 @@ class RepeatLastCommandCommand(sublime_plugin.TextCommand):
     input_panel.settings().set('auto_insert_numbers', True)
 
   def repeat_last_command(self, times):
-    command, args, _ = self.view.command_history(0, True)
+    command, args, _ = self.view.command_history(0, False)
     self.schedule_command(command, args, times)
 
   def schedule_command(self, command, args, times):
