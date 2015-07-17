@@ -3,6 +3,16 @@
   { "keys": ["super+shift+,"], "command": "open_file", "args": { "file": "${packages}/Default/Preferences.sublime-settings" } },
   { "keys": ["super+shift+;"], "command": "open_file", "args": { "file": "${packages}/Default/Default (OSX).sublime-keymap" } },
 
+  { "keys": ["super+ctrl+o"], "command": "prompt_open_project_or_workspace" },
+  { "keys": ["super+ctrl+,"], "command": "open_file", "args": { "file": "${project}" } },
+  { "keys": ["super+ctrl+w"], "command": "close_workspace" },
+  { "keys": ["super+ctrl+s"], "command": "save_project_and_workspace_as" },
+  { "keys": ["super+ctrl+n"], "command": "new_window_for_project" },
+  { "keys": ["super+ctrl+shift+s"], "command": "save_workspace_as" },
+  { "keys": ["super+ctrl+a"], "command": "prompt_add_folder" },
+  { "keys": ["super+ctrl+x"], "command": "close_folder_list" },
+  { "keys": ["super+ctrl+r"], "command": "refresh_folder_list" },
+
   { "keys": ["alt+shift+tab"], "command": "indent" },
   { "keys": ["super+k", "tab"], "command": "reindent" },
 
