@@ -392,12 +392,9 @@
 // DIALOG
 //
 
-// FIXME: what does this relate to ?
-
     {
         "class": "dialog",
-        // "layer0.tint": [238, 238, 238],
-        "layer0.tint": [255, 0, 255],
+        "layer0.tint": [40, 42, 46], // 01
         "layer0.opacity": 1.0
     },
 
