@@ -25,7 +25,7 @@ class RepeatNextCommandCommand(sublime_plugin.TextCommand):
     settings = self.view.settings()
     settings.set('repeat_next_command', True)
     settings.set('repeat_next_command_times', times)
-    self.view.set_status('repeat_next_command', '🔁' + str(times))
+    self.view.set_status('repeat_next_command', '🔂' + str(times))
 
 
 class RepeatNextCommandListener(sublime_plugin.EventListener):
