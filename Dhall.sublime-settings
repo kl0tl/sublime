@@ -1,0 +1,13 @@
+{
+  "format_code": {
+    "executables": [
+      { "name": "format", "cmd": "dhall format" },
+      { "name": "freeze", "cmd": "dhall freeze" },
+      { "name": "normalize", "cmd": "dhall" }
+    ],
+    "default": "format",
+    "paths": {
+      "osx": ["/usr/local/bin"]
+    }
+  }
+}

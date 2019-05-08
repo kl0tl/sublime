@@ -1,0 +1,8 @@
+if test -n "$TERMINUS_SUBLIME"; then
+    bind '"\e[1;3C": forward-word'
+    bind '"\e[1;3D": backward-word'
+fi
+
+if [ -r ~/.profile ]; then
+   source ~/.profile
+fi

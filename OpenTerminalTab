@@ -1,0 +1,14 @@
+#! /usr/bin/env bash
+
+osascript<<END
+  tell application "System Events"
+    if (exists process "Terminal") then
+      tell application "Terminal" to activate
+      tell process "Terminal" to keystroke "t" using command down
+    end if
+    tell application "Terminal"
+      activate
+      do script "cd \"$1\" && clear" in front window
+    end tell
+  end tell
+END

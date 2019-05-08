@@ -1,0 +1,70 @@
+{
+  "engines": [
+    {
+      "name": "Git",
+      "selector": "text.git",
+      "url": "https://git-scm.com/search/results?search=%s"
+    },
+    {
+      "name": "Explain Shell",
+      "selector": "source.shell",
+      "url": "https://explainshell.com/explain?cmd=%s"
+    },
+    {
+      "name": "Python",
+      "selector": "source.python",
+      "url": "https://docs.python.org/fr/3/search.html?q=%s"
+    },
+    {
+      "name": "Hoogle",
+      "selector": "source.haskell",
+      "url": "https://www.haskell.org/hoogle/?hoogle=%s"
+    },
+    {
+      "name": "Pursuit",
+      "selector": "source.purescript",
+      "url": "https://pursuit.purescript.org/search?q=%s"
+    },
+    {
+      "name": "npm",
+      "selector": "source.js",
+      "url": "https://www.npmjs.com/search?q=%s"
+    },
+    {
+      "name": "MDN - JavaScript",
+      "selector": "source.js",
+      "url": "https://developer.mozilla.org/fr/search?q=%s&topic=api&topic=js"
+    },
+    {
+      "name": "MDN - CSS",
+      "selector": "source.css",
+      "url": "https://developer.mozilla.org/fr/search?q=%s&topic=css"
+    },
+    {
+      "name": "MDN - HTML",
+      "selector": "text.html",
+      "url": "https://developer.mozilla.org/fr/search?q=%s&topic=html"
+    },
+    {
+      "name": "DevDocs",
+      "selector": "source.js - source.css - source.html",
+      "url": "https://devdocs.io/#q=%s",
+    },
+    {
+      "name": "Lodash",
+      "url": "https://lodash.com/docs?q=%s"
+    },
+    {
+      "name": "Ramda",
+      "url": "http://ramdajs.com/docs/#%s"
+    },
+    {
+      "name": "Regex101",
+      "url": "https://regex101.com/?regex=%s"
+    }
+  ],
+  "default_engine": {
+    "name": "Google",
+    "url": "https://www.google.fr/search?q=%s"
+  }
+}

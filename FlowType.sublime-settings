@@ -1,0 +1,5 @@
+{
+  "flow_bin_path": "/usr/local/bin/flow",
+  "complete_with_builtintypes": false,
+  "check_contents_on_edit": false
+}

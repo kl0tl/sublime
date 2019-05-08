@@ -1,0 +1,42 @@
+{
+  "auto_show_diagnostics_panel": false,
+  "clients": {
+    "dhall-lsp-server": {
+      "command": [
+        "~/.dhall/dist-newstyle/build/x86_64-osx/ghc-8.6.4/dhall-lsp-server-0.1.0.1/x/dhall-lsp-server/build/dhall-lsp-server/dhall-lsp-server"
+      ],
+      "enabled": true,
+      "languageId": "dhall",
+      "scopes": ["source.dhall"],
+      "syntaxes": ["Packages/User/Dhall.sublime-syntax"]
+    },
+    "haskell-ide-engine": {
+      "command": ["~/.local/bin/hie-wrapper"],
+      "enabled": true,
+      "settings": {
+        "languageServerHaskell": {
+          "formattingProvider": "none",
+          "hlintOn": false
+        }
+      }
+    },
+    "purescript-language-server": {
+      "command": [
+        "~/.nvm/nvm-exec",
+        "npx",
+        "--no-install",
+        "purescript-language-server",
+        "--stdio"
+      ],
+      "enabled": true,
+      "languageId": "purescript",
+      "scopes": ["source.purescript"],
+      "syntaxes": ["Packages/PureScript Syntax/purescript.sublime-syntax"]
+    }
+  },
+  "only_show_lsp_completions": true,
+  "show_code_actions_bulb": true,
+  "show_diagnostics_count_in_view_status": true,
+  "show_diagnostics_phantoms": true,
+  "show_references_in_quick_panel": true
+}

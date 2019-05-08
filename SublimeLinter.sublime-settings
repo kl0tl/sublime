@@ -1,15 +1,36 @@
+// SublimeLinter Settings - User
 {
-    "user": {
-        "linters": {
-            "jsxhint": {
-                "@disable": false,
-                "args": [
-                    "--config",
-                    "/Users/kl0tl/Library/Application Support/Sublime Text 3/Packages/User/.jshintrc"
-                ],
-                "excludes": []
-            }
-        },
-        "mark_style": "squiggly underline"
+  "statusbar.counters_template": "(warnings: {} | errors: {})",
+  "styles": [
+    {
+      "mark_style": "squiggly_underline",
+      "priority": 1,
+      "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+      "icon": "pointer",
+      "types": ["warning"]
+    },
+    {
+      "mark_style": "squiggly_underline",
+      "priority": 1,
+      "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+      "icon": "pointer",
+      "types": ["error"]
     }
+  ],
+  "linters": {
+    "eslint": {
+      "executable": ["~/.nvm/nvm-exec", "npx", "--no-install", "eslint"],
+      "working_dir": "$file_path"
+    },
+    "flow": {
+      "executable": ["~/.nvm/nvm-exec", "npx", "--no-install", "flow"],
+      "working_dir": "$file_path"
+    },
+    "hlint": {
+      "executable": ["/usr/local/bin/stack", "exec", "hlint"]
+    }
+  },
+  "paths": {
+    "osx": ["/usr/local/bin"]
+  }
 }

@@ -1,0 +1,6 @@
+{
+  "format_code": {
+    "executable": "~/.local/bin/psfmt",
+    "enabled_on_save": false
+  }
+}

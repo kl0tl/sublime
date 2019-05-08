@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+import React${1:, \{ $2 \}} from 'react';
+]]></content>
+  <tabTrigger>import</tabTrigger>
+  <scope>source.js</scope>
+  <description> React: import React, { … } from 'react'</description>
+</snippet>

@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    // Python Multiline Comments
+    // {
+    //   "opening_quote": "\"\"\"",
+    //   "ending_quote": "\"\"\"",
+    //   "scope": "string.quoted.double.block",
+    //   "opening_scope": "punctuation.definition.string.begin",
+    //   "ending_scope": "punctuation.definition.string.end"
+    // },
+    // {
+    //   "opening_quote": "'''",
+    //   "ending_quote": "'''",
+    //   "scope": "string.quoted.single.block",
+    //   "opening_scope": "punctuation.definition.string.begin",
+    //   "ending_scope": "punctuation.definition.string.end"
+    // },
+    {
+      "scope": "string.quoted",
+      "opening_scope": "punctuation.definition.string.begin",
+      "ending_scope": "punctuation.definition.string.end"
+    },
+    {
+      "opening_quote": "\"",
+      "ending_quote": "\""
+    },
+    {
+      "opening_quote": "'",
+      "ending_quote": "'"
+    },
+    // ES6 Quasi Literals
+    {
+      "scope": "quasi.quoted",
+      "opening_scope": "punctuation.definition.quasi.begin",
+      "ending_scope": "punctuation.definition.quasi.end",
+    },
+    {
+      "opening_quote": "`",
+      "ending_quote": "`",
+      "settings": [{ "key": "backticks" }]
+    },
+    {
+      "opening_quote": "“",
+      "ending_quote": "”",
+      "settings": [{ "key": "typographic_quotes" }]
+    },
+    {
+      "opening_quote": "‘",
+      "ending_quote": "’",
+      "settings": [{ "key": "typographic_quotes" }]
+    },
+    {
+      "opening_quote": "‹",
+      "ending_quote": "›",
+      "settings": [{ "key": "typographic_quotes" }]
+    },
+    {
+      "opening_quote": "«",
+      "ending_quote": "»",
+      "settings": [{ "key": "typographic_quotes" }]
+    },
+    // {
+    //   "scope": "source.php",
+    //   "opening_quote": "<?php",
+    //   "ending_quote": "?>"
+    // },
+    {
+      "opening_quote": "<",
+      "ending_quote": ">",
+      "settings": [{ "key": "square_brackets" }]
+    },
+    // {
+    //   "opening_quote": "(",
+    //   "ending_quote": ")",
+    //   "settings": [{ "key": "parens" }]
+    // },
+    // {
+    //   "opening_quote": "{",
+    //   "ending_quote": "}",
+    //   "settings": [{ "key": "curly_brackets" }]
+    // },
+    // {
+    //   "opening_quote": "[",
+    //   "ending_quote": "]",
+    //   "settings": [{ "key": "brackets" }]
+    // }
+  ]
+}

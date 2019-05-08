@@ -1,0 +1,17 @@
+[
+  {
+    "caption": "Dhall: Format",
+    "command": "format_code",
+    "args": { "name": "format" }
+  },
+  {
+    "caption": "Dhall: Freeze",
+    "command": "format_code",
+    "args": { "name": "freeze" }
+  },
+  {
+    "caption": "Dhall: Normalize",
+    "command": "format_code",
+    "args": { "name": "normalize" }
+  }
+]

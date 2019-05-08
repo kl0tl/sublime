@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+class $1 extends ${2:React.}Component {
+  render() {
+    return (
+      $3
+    );
+  }
+}
+]]></content>
+  <tabTrigger>class</tabTrigger>
+  <scope>source.js</scope>
+  <description> React: Class Component</description>
+</snippet>

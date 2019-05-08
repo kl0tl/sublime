@@ -18,10 +18,11 @@ class ToggleColorSchemesCommand(sublime_plugin.WindowCommand):
 
     for color_scheme in color_schemes:
       new_scheme = color_scheme.get('light' if was_dark_theme else 'dark')
-      update_settings(color_scheme.get('settings'), 'color_scheme', new_scheme)
+      key = color_scheme.get('key', 'color_scheme')
+      update_settings(color_scheme.get('settings'), key, new_scheme)
 
     for view in self.window.views():
-        best_score = -1
+        best_score = 0
         best_candidate = None
 
         for color_scheme in color_schemes:

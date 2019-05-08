@@ -1,3 +1,12 @@
 {
-  "always_highlight_current_line": true
+	"accounts":
+	{
+		"GitHub":
+		{
+			"base_uri": "https://api.github.com",
+			"github_token": "8835dbad3009d6d381c9c061bafbb44638addb09"
+		}
+	},
+	"active_account": "GitHub",
+	"always_highlight_current_line": true
 }

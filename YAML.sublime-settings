@@ -1,0 +1,6 @@
+{
+  "format_code": {
+    "executable": "~/.nvm/nvm-exec npx --no-install prettier --stdin --parser yaml",
+    "enabled_on_save": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "format_code": {
+    "executable": "stylish-haskell",
+    "paths": {
+      "osx": ["~/.cabal/bin", "~/.local/bin"]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+static childContextTypes = {
+  $1
+};
+]]></content>
+  <tabTrigger>childContextTypes</tabTrigger>
+  <scope>source.js</scope>
+  <description> React: childContextTypes</description>
+</snippet>

@@ -2,5 +2,25 @@
   {
     "caption": "File: Copy Folder Path",
     "command": "copy_folder_path"
-  }
+  },
+  {
+    "caption": "Terminal: New Tab",
+    "command": "open_terminal_tab"
+  },
+  {
+    "caption": "Terminal: New Window",
+    "command": "open_terminal_window"
+  },
+  {
+    "caption": "Terminal: New Tab at Project Root",
+    "command": "open_terminal_tab_at_project_root"
+  },
+  {
+    "caption": "Terminal: New Window at Project Root",
+    "command": "open_terminal_window_at_project_root"
+  },
+  {
+    "caption": "Format Code",
+    "command": "format_code"
+  },
 ]

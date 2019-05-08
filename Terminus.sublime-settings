@@ -1,0 +1,61 @@
+{
+	"256color": true,
+	"shell_configs":
+	[
+		{
+			"cmd":
+			[
+				"/usr/local/bin/bash",
+				"--rcfile",
+				"$packages/User/.terminus_profile",
+				"-i"
+			],
+			"default": true,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "bash",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		}
+	],
+	"theme": "user",
+	"unix_term": "xterm-256color",
+	"user_theme_colors":
+	{
+		"00": "#002b36",
+		"01": "#dc322f",
+		"02": "#859900",
+		"03": "#b58900",
+		"04": "#268bd2",
+		"05": "#d33682",
+		"06": "#2aa198",
+		"07": "#fffffe",
+		"08": "#002b36",
+		"09": "#dc322f",
+		"10": "#859900",
+		"11": "#b58900",
+		"12": "#268bd2",
+		"13": "#d33682",
+		"14": "#2aa198",
+		"15": "#fffffe",
+		"background": "#fdf6e3",
+		"caret": "#586e75",
+		"foreground": "#586e75",
+		"selection": "#eee8d5",
+		"selection_foreground": "#586e75"
+	},
+	"view_settings":
+	{
+		"caret_extra_width": 8,
+		"caret_style": "solid",
+		"font_size": 14,
+		"rulers":
+		[
+		]
+	}
+}

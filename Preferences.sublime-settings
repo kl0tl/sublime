@@ -1,5 +1,4 @@
 {
-	"afn_deleting_slash": true,
 	"afn_insert_dimensions": false,
 	"afn_use_keybinding": true,
 	"afn_valid_scopes":
@@ -10,20 +9,29 @@
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
+	"auto_complete_with_fields": true,
 	"auto_find_in_selection": true,
 	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/base16-solarized.light (SL).tmTheme",
+	"color_scheme": "Packages/User/Base16 Solarized Light.sublime-color-scheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Source Code Pro",
+	"font_face": "Source Code Pro (&Ligatures)",
+	"font_options":
+	[
+		"gray_antialias",
+		"ss02"
+	],
 	"font_size": 20,
 	"highlight_modified_tabs": true,
 	"highlight_unicode_color_name": "invalid.illegal",
 	"ignored_packages":
 	[
-		"Vintage",
+		"CSS",
+		"FlowType",
+		"GitSavvy",
+		"JavaScript",
 		"Markdown",
-		"JavaScript"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -32,6 +40,7 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"open_files_in_new_window": false,
+	"origami_auto_close_empty_panes": true,
 	"rulers":
 	[
 		70,
@@ -40,11 +49,12 @@
 	],
 	"set_unsaved_view_name": false,
 	"shift_tab_unindent": true,
+	"show_definitions": false,
 	"show_encoding": true,
 	"show_full_path": true,
 	"show_line_endings": true,
 	"tab_size": 2,
-	"theme": "El Capitan (light).sublime-theme",
+	"theme": "El Capitan Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true

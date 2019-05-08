@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+componentDidUpdate(${1:prevProps}, ${2:prevState}, ${3:snapshot}) {
+  $4
+}
+]]></content>
+  <tabTrigger>componentDidUpdate</tabTrigger>
+  <scope>source.js</scope>
+  <description> React: componentDidUpdate(prevProps, prevState, snapshot) { … }</description>
+</snippet>

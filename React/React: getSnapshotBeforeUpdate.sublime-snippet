@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+getSnapshotBeforeUpdate(${1:prevProps}, ${2:prevState}) {
+  $3
+}
+]]></content>
+  <tabTrigger>getSnapshotBeforeUpdate</tabTrigger>
+  <scope>source.js</scope>
+  <description> React: getSnapshotBeforeUpdate(prevProps, prevState) { … }</description>
+</snippet>

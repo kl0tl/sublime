@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+componentDidMount(${1:prevProps}, ${2:prevState}) {
+  $3
+}
+]]></content>
+  <tabTrigger>componentDidMount</tabTrigger>
+  <scope>source.js</scope>
+  <description> React: componentDidMount(prevProps, prevState) { … }</description>
+</snippet>

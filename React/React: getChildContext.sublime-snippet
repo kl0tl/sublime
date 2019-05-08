@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+getChildContext() {
+  $1
+}
+]]></content>
+  <tabTrigger>getChildContext</tabTrigger>
+  <scope>source.js</scope>
+  <description> React: getChildContext() { … }</description>
+</snippet>

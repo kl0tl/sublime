@@ -1,12 +1,22 @@
 {
-	"color_scheme": "Packages/User/File Browser (light).hidden-tmTheme",
+	"color_scheme": "Packages/User/File Browser Light.hidden-tmTheme",
 	"dired_jump_points":
 	{
 		"config": "/Users/kl0tl/Library/Application Support/Sublime Text 3/Packages/User/",
+		"desktop": "/Users/kl0tl/Desktop",
 		"projects": "/Users/kl0tl/projects/",
-		"workspace": "/Users/kl0tl/workspace/"
+		"workspace": "/Users/kl0tl/workspace/",
+		"~": "/Users/kl0tl"
 	},
 	"dired_open_on_jump": true,
 	"dired_show_full_path": true,
-	"dired_smart_jump": true
+	"dired_smart_jump": true,
+	"dired_to_copy":
+	[
+		"/Users/cyril/Workspace/try-purescript-react-basic/src/Components/App.css"
+	],
+	"dired_to_move":
+	[
+	],
+	"line_numbers": false
 }
