@@ -46,9 +46,11 @@
 		"SublimeLinter-flow",
 		"SublimeLinter-hlint",
 		"SublimeLinter-shellcheck",
+		"SublimeLinter-stylelint",
 		"Sync View Scroll",
 		"Terminus",
-		"Unicode Character Highlighter"
+		"Unicode Character Highlighter",
+		"UnicodeMath"
 	],
 	"repositories":
 	[

@@ -23,7 +23,7 @@
 			]
 		}
 	],
-	"theme": "user",
+	"theme": "tomorrow-night",
 	"unix_term": "xterm-256color",
 	"user_theme_colors":
 	{

@@ -1,6 +1,9 @@
 {
   "format_code": {
-    "executable": "~/.local/bin/psfmt",
+    // "executable": "~/.nvm/nvm-exec npx --no-install purty -",
+    // "executable": "/Users/cyril/Workspace/purty/.stack-work/install/x86_64-osx/lts-13.12/8.6.4/bin/purty -",
+    "executable": "/Users/cyril/Workspace/purty/.stack-work/install/x86_64-osx/lts-13.12/8.6.4/bin/purty -",
+    // "executable": "~/.local/bin/psfmt",
     "enabled_on_save": false
   }
 }

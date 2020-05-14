@@ -3,7 +3,7 @@
   "clients": {
     "dhall-lsp-server": {
       "command": [
-        "~/.dhall/dist-newstyle/build/x86_64-osx/ghc-8.6.4/dhall-lsp-server-0.1.0.1/x/dhall-lsp-server/build/dhall-lsp-server/dhall-lsp-server"
+        "~/.cabal/bin/dhall-lsp-server"
       ],
       "enabled": true,
       "languageId": "dhall",
@@ -12,7 +12,7 @@
     },
     "haskell-ide-engine": {
       "command": ["~/.local/bin/hie-wrapper"],
-      "enabled": true,
+      "enabled": false,
       "settings": {
         "languageServerHaskell": {
           "formattingProvider": "none",

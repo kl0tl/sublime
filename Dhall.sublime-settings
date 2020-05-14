@@ -3,7 +3,8 @@
     "executables": [
       { "name": "format", "cmd": "dhall format" },
       { "name": "freeze", "cmd": "dhall freeze" },
-      { "name": "normalize", "cmd": "dhall" }
+      { "name": "hash", "cmd": "dhall hash", "preview": true },
+      { "name": "normalize", "cmd": "dhall", "preview": true }
     ],
     "default": "format",
     "paths": {

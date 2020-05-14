@@ -10,6 +10,11 @@
     "args": { "name": "freeze" }
   },
   {
+    "caption": "Dhall: Hash",
+    "command": "format_code",
+    "args": { "name": "hash" }
+  },
+  {
     "caption": "Dhall: Normalize",
     "command": "format_code",
     "args": { "name": "normalize" }

@@ -1,8 +1,9 @@
 {
   "format_code": {
-    "executable": "stylish-haskell",
+    "executable": "stack exec stylish-haskell",
     "paths": {
-      "osx": ["~/.cabal/bin", "~/.local/bin"]
-    }
+      "osx": ["/usr/local/bin"]
+    },
+    "enabled": true
   }
 }

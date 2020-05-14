@@ -19,30 +19,33 @@ class FormatCodeCommand(sublime_plugin.TextCommand):
   def run(self, edit, name = None):
     window = self.view.window()
     syntax = self.view.settings().get("syntax")
-    settings = load_syntax_settings(syntax)
-    formatter = settings.get("format_code")
-    if not formatter :
+    syntax_settings = load_syntax_settings(syntax)
+    project_settings = window.project_data().get("settings", {})
+    formatter = syntax_settings.get("format_code")
+    project_formatter = project_settings.get("format_code", {}).get("syntax", {}).get(os.path.splitext(os.path.basename(syntax))[0], {})
+    if not (project_formatter or formatter) :
       window.status_message("No formatter for syntax '%s'" % syntax)
       return
-    if not formatter.get("enabled", True):
+    if not project_settings.get("format_code", {}).get("enabled", project_formatter.get("enabled", formatter.get("enabled", True))):
       window.status_message("Formatter disabled for syntax '%s'" % syntax)
       return
-    main = formatter.get("executable")
+    main = project_formatter.get("executable", formatter.get("executable"))
+    default_preview = project_formatter.get("preview", formatter.get("preview"))
     if name is None and main:
-      self.format(edit, main, formatter.get("paths"))
+      self.format(edit, main, project_formatter.get("paths", formatter.get("paths")), default_preview)
       return
     else:
-      exes = formatter.get("executables")
-      cmd = next((exe["cmd"] for exe in exes if exe["name"] == name), None)
-      if cmd is None:
+      exes = project_formatter.get("executables", formatter.get("executables"))
+      exe = next((exe for exe in exes if exe["name"] == name), None)
+      if exe is None or exe["cmd"] is None:
         if len(exes) == 1:
-          self.format(edit, exes[0]["cmd"], formatter.get("paths"))
+          self.format(edit, exes[0]["cmd"], project_formatter.get("paths", formatter.get("paths")), exes[0].get("preview", default_preview))
           return
         else:
           self.view.window().show_quick_panel([exe["cmd"] for exe in exes], self.on_quick_choice(formatter))
           return
       else:
-        self.format(edit, cmd, formatter.get("paths"))
+        self.format(edit, exe["cmd"], project_formatter.get("paths", formatter.get("paths")), exe.get("preview", default_preview))
         return
     window.status_message("Missing formatter commands for syntax '%s'" % syntax)
 
@@ -52,17 +55,17 @@ class FormatCodeCommand(sublime_plugin.TextCommand):
         self.view.run_command("format_code", { "name": formatter["executables"][index]["name"] })
     return callback
 
-  def format(self, edit, cmd, paths = None):
+  def format(self, edit, cmd, paths = None, preview = False):
     regions = list(self.view.sel())
     if all([region.empty() for region in regions]):
-      self.format_region(edit, sublime.Region(0, self.view.size()), cmd, paths)
+      self.format_region(edit, sublime.Region(0, self.view.size()), cmd, paths, preview)
     else:
       for region in regions:
         self.format_region(edit, region, cmd, paths, trailing_newline = False)
     self.view.sel().clear()
     self.view.sel().add_all(regions)
 
-  def format_region(self, edit, region, cmd, paths = None, trailing_newline = True):
+  def format_region(self, edit, region, cmd, paths = None, preview = False, trailing_newline = True):
     encoding = self.view.encoding()
     if encoding == "Undefined":
       encoding = self.view.settings().get("default_encoding")
@@ -83,7 +86,14 @@ class FormatCodeCommand(sublime_plugin.TextCommand):
       elif stdout:
         formatted = decode_bytes(stdout if trailing_newline else stdout.rstrip(), encoding)
         if raw != formatted:
-          self.view.replace(edit, region, formatted)
+          if preview:
+            preview_file = self.view.window().new_file()
+            preview_file.insert(edit, 0, formatted)
+            preview_file.set_scratch(True)
+            preview_file.set_encoding(encoding)
+            preview_file.set_syntax_file(self.view.settings().get("syntax"))
+          else:
+            self.view.replace(edit, region, formatted)
     finally:
       proc.stdin.close()
       proc.stdout.close()
