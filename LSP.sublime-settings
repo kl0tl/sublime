@@ -3,7 +3,8 @@
   "clients": {
     "dhall-lsp-server": {
       "command": [
-        "~/.cabal/bin/dhall-lsp-server"
+        "~/.cabal/bin/dhall-lsp-server-1.0.3"
+        // "~/.cabal/bin/dhall-lsp-server"
       ],
       "enabled": true,
       "languageId": "dhall",
@@ -28,7 +29,7 @@
         "purescript-language-server",
         "--stdio"
       ],
-      "enabled": true,
+      "enabled": false,
       "languageId": "purescript",
       "scopes": ["source.purescript"],
       "syntaxes": ["Packages/PureScript Syntax/purescript.sublime-syntax"]

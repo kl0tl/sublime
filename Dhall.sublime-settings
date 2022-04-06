@@ -1,14 +1,19 @@
 {
   "format_code": {
+    "enabled": true,
     "executables": [
-      { "name": "format", "cmd": "dhall format" },
-      { "name": "freeze", "cmd": "dhall freeze" },
-      { "name": "hash", "cmd": "dhall hash", "preview": true },
-      { "name": "normalize", "cmd": "dhall", "preview": true }
+      { "name": "format (v1.28.0)", "cmd": "dhall-1.28.0 format" },
+      { "name": "freeze (v1.28.0)", "cmd": "dhall-1.28.0 freeze" },
+      { "name": "hash (v1.28.0)", "cmd": "dhall-1.28.0 hash", "preview": true },
+      { "name": "normalize (v1.28.0)", "cmd": "dhall-1.28.0", "preview": true },
+      { "name": "format (latest)", "cmd": "dhall format" },
+      { "name": "freeze (latest)", "cmd": "dhall freeze" },
+      { "name": "hash (latest)", "cmd": "dhall hash", "preview": true },
+      { "name": "normalize (latest)", "cmd": "dhall", "preview": true }
     ],
-    "default": "format",
+    "default": "format (v1.28.0)",
     "paths": {
-      "osx": ["/usr/local/bin"]
+      "osx": ["~/.cabal/bin"]
     }
   }
 }

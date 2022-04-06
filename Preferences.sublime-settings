@@ -22,7 +22,7 @@
 		"gray_antialias",
 		"ss02"
 	],
-	"font_size": 24,
+	"font_size": 20,
 	"highlight_modified_tabs": true,
 	"highlight_unicode_color_name": "invalid.illegal",
 	"ignored_packages":
@@ -58,5 +58,7 @@
 	"theme": "El Capitan Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
-	"trim_trailing_white_space_on_save": true
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": false,
+	"update_check": false
 }

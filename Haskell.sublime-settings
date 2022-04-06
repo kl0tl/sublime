@@ -1,6 +1,7 @@
 {
   "format_code": {
-    "executable": "stack exec stylish-haskell",
+    // "executable": "stack exec stylish-haskell",
+    "executable": "/Users/cyril/Downloads/stylish-haskell-v0.12.2.0-darwin-x86_64/stylish-haskell",
     "paths": {
       "osx": ["/usr/local/bin"]
     },
